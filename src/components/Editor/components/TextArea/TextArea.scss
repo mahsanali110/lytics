@@ -1,0 +1,24 @@
+@import 'theme/variables.scss';
+
+.ant-input.editor-textarea {
+  resize: none;
+  background-color: $color-editor-textarea !important;
+  padding-top: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 0.25px;
+  color: white;
+  &::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.25px;
+    color: #d3d3d3;
+    opacity: 0.4;
+  }
+}

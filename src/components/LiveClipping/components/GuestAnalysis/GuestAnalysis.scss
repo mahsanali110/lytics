@@ -1,0 +1,78 @@
+@import 'theme/variables';
+.guest-analysis-wrapper {
+  max-height: 80vh;
+  overflow: auto;
+}
+.guest-analysis-body-wrapper {
+  .table-column-field {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    .table-column-field-label {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 16px;
+      letter-spacing: 0.4px;
+      color: #d3d3d3;
+    }
+  }
+  .table-container {
+    .ant-spin-nested-loading {
+      height: 200px;
+      overflow: auto;
+    }
+    .ant-table {
+      .ant-table-thead {
+        tr {
+          th {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            border-bottom: 2px solid $border-primary;
+          }
+        }
+      }
+      tr {
+        &:hover {
+          td {
+            background: none;
+          }
+        }
+        td {
+          text-align: center;
+        }
+      }
+      tr.ant-table-row {
+        background-color: #72747e;
+      }
+      .ant-table-tbody > tr > td {
+        border-bottom: none;
+      }
+
+      .ant-table-row {
+        .ant-table-cell {
+          padding: 0px 16px;
+          &:nth-child(1) {
+            padding-left: 0px;
+          }
+        }
+      }
+    }
+
+    .icons-container {
+      margin-right: 10px;
+      .anticon {
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      .anticon.anticon-minus-square {
+        color: $color-red;
+      }
+      .anticon.anticon-plus-square {
+        color: $color-green;
+      }
+    }
+  }
+}

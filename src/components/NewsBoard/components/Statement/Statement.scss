@@ -1,0 +1,216 @@
+@import 'theme/variables';
+
+.segment-statement-wrapper-newsboard {
+  // overflow-y: scroll;
+  max-height: 78vh;
+  overflow-y: none;
+  #addSpeakerCard {
+    background-color: #3e404b !important;
+    display: none;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    // left: 78rem;
+    top: 350px;
+    margin-right: 0px;
+    float: right;
+    float: right;
+    z-index: 1;
+  }
+  .abc {
+    display: flex;
+    flex-direction: row;
+    .speaker {
+      width: 20%;
+      padding: 1rem;
+    }
+    .tag {
+      width: 80%;
+      padding: 1rem;
+    }
+  }
+  .statement-icons-wrapper {
+    svg {
+      cursor: pointer;
+    }
+  }
+  .segment-statement-content-wrapper {
+    .ant-card-body,
+    .ant-input {
+      padding: 0;
+      overflow: auto;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.44px;
+      color: $color-primary-dark;
+      font-family: $regular-fonts;
+      .editable-Translation {
+        // color: black;
+      }
+    }
+    .bg-selected {
+      background-color: yellow;
+    }
+
+    // // .editable-content {
+    // //   padding: 15px;
+    // //   direction: rtl !important;
+    .urdu {
+      direction: rtl !important;
+      text-align: right;
+      color: black !important;
+      outline: 0px solid transparent;
+      text-align: justify;
+      font-family: 'Noto Nastaliq';
+      line-height: 60px;
+    }
+    .english,
+    .eng {
+      text-align: justify;
+      direction: ltr !important;
+    }
+    .editable-main-Transcription {
+      //font-size: 2rem !important;
+      // font-weight: bold;
+      // color: black;
+      // outline: 0px solid transparent;
+      padding: 0.5rem;
+      // margin-top: -5px;
+      text-align: justify;
+      .editable-Transcription {
+        // color: black;
+      }
+
+      // .speaker-name {
+      //   display: felx;
+      //   align-items: flex-start;
+      //   #speakerTranscription {
+      //     cursor: pointer;
+      //   }
+      // }
+    }
+    .editable-main-Translation {
+      text-align: justify;
+      // margin-top: -5px;
+      //   text-align: right;
+      //font-size: 1.5rem !important;
+      //font-weight: bold;
+      color: black !important;
+      padding: 0.5rem;
+      //   color: black !important;
+      //   outline: 0px solid transparent;
+      .editable-Translation {
+        // color: black;
+      }
+    }
+
+    .ant-card-head-wrapper {
+      .ant-card-head-title {
+        //padding-left: 2rem !important;
+        margin-left: 25px;
+        //flex: none !important;
+
+        text-align: left;
+      }
+    }
+    .black {
+      color: black;
+    }
+    .F98EE {
+      color: #5f98ee !important;
+      font-family: 'Roboto';
+      // font-size: small;
+    }
+    .DB09F {
+      color: #3db09f !important;
+      // font-size: small;
+    }
+    .F26B33 {
+      color: #f26b33 !important;
+      // font-size: small;
+    }
+    .A97CDE {
+      color: #a97cde !important;
+      // font-size: small;
+    }
+    .E02BAD {
+      color: #e02bad !important;
+      // font-size: small;
+    }
+    .A49F28 {
+      color: #a49f28 !important;
+      // font-size: small;
+    }
+    .DB034 {
+      color: #1db034 !important;
+      // font-size: small;
+    }
+    .EC4040 {
+      color: #ec4040 !important;
+      // font-size: small;
+    }
+    .CCABE {
+      color: #0ccabe !important;
+      // font-size: small;
+    }
+    .A98694F {
+      color: #98694f !important;
+      // font-size: small;
+    }
+    .A066862 {
+      color: #066862 !important;
+      // font-size: small;
+    }
+    .BEEB {
+      color: #48beeb !important;
+      // font-size: small;
+    }
+  }
+  .ant-card-extra {
+    margin: 0px;
+    width: 100%;
+    // padding-top: 0px; // commented for buttons fix
+    padding-bottom: 0px;
+
+    .statement-icons-wrapper {
+      //min-width: 120px;
+      min-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // margin-right: 15px;
+      .qc-save-btn {
+        background-color: inherit;
+        border: 1px solid $color-pink;
+        color: $color-pink;
+        // font-size: 18px;
+      }
+      .qc-edit-btn {
+        // background-color:$color-balance;
+        //background: linear-gradient(267.1deg, rgba(72, 189, 234, 0.1) 47.59%, rgba(106, 224, 217, 0.1) 67%) !important;
+        // border: 1px solid rgba(72, 189, 234, 0.1) 47.59%, rgba(106, 224, 217, 0.1);
+        background-color: inherit;
+        border: 1px solid $color-pink;
+        color: $color-pink;
+        // font-size: 18px;
+      }
+    }
+  }
+
+  .ant-card-head-wrapper {
+    .ant-card-head-title {
+      //padding-left: 18rem !important;
+      // flex: none !important;
+      // position: absolute;
+      // left: 35%;
+    }
+  }
+}
+.nowrap {
+  white-space: pre-wrap;
+}
+.qc-edit-btn:hover {
+}
+.ant-card-head {
+  min-height: 0px;
+}

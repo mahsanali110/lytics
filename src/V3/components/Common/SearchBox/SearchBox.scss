@@ -1,0 +1,24 @@
+@import 'theme/variables.scss';
+
+.SearchBox {
+  width: 100%;
+
+  .search-box-input {
+    border-radius: 100px;
+    padding: 8px;
+    padding-inline: 1rem;
+    background-color: $color-v3-grey-dark !important;
+  }
+}
+
+.SearchBox.secondary {
+  .search-box-input {
+    border-radius: 100px;
+    padding: 8px;
+    background-color: $color-v3-grey-dark !important;
+
+    &::placeholder {
+      font-style: italic;
+    }
+  }
+}

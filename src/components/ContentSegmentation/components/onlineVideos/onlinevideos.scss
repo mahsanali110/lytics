@@ -1,0 +1,82 @@
+@import 'theme/variables';
+.online-video-wrapper {
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  .online-video-model-wrapper {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .online-video-valid-wrapper {
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    .inner-div {
+      width: 33%;
+    }
+    .title {
+      color: $color-pink;
+    }
+    .online-video-list {
+      li {
+        color: white;
+      }
+    }
+  }
+  .online-video-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    .online-table {
+      Table {
+        height: 80%;
+      }
+    }
+  }
+  .online-video-button {
+    display: flex;
+    display: flex;
+    justify-content: flex-start; /* adjustment */
+    position: relative;
+    .online-heading {
+      color: $color-pink;
+      font-size: 1.5rem;
+      // text-align: center;
+      width: 250px;
+      // height: 100px;
+      flex: 1 1 auto;
+      position: absolute; /* new */
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .process-button {
+      flex: 0 1 auto;
+      width: 100px;
+      // height: 100px;
+      margin-left: auto;
+      margin-right: 50px;
+    }
+  }
+  .process-button-bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin: -2% 5px 10px 0;
+    top:9%;
+    height: 50px;
+  }
+  .main-search-fields-container{
+    width: 75vw;
+    margin-left: 2rem;
+  }
+  .search-jobs{
+    
+  }
+  .main-div{
+    position: relative;
+  }
+  .table-container {
+    margin-top: 30px;
+  }
+}

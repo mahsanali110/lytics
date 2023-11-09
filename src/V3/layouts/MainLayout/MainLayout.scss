@@ -1,0 +1,47 @@
+@import 'theme/variables.scss';
+
+.MainLayout {
+  --header-height: 40px;
+  --logo-width: 54px;
+  padding-inline: 1rem;
+  background-color: $color-v3-black;
+
+  //////////   Header  ///////////////
+  .v3-header {
+    display: flex;
+    height: var(--header-height);
+    // background-color: grey;
+
+    .menu-wrapper {
+      max-width: calc(50% - var(--logo-width) / 2);
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-wrapper {
+      width: var(--logo-width);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .profile-menu-wrapper {
+      max-width: calc(50% - var(--logo-width) / 2);
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-grow: 1;
+    }
+  }
+
+  ///////////////// MainContent //////////////
+  .v3-main-content {
+    height: calc(100vh - var(--header-height));
+    // background-color: grey;
+    overflow: auto;
+  }
+}

@@ -1,0 +1,16 @@
+@import 'theme/variables.scss';
+
+.EmptyPlaceHolder {
+  //   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  .custom-message {
+    display: inline-block;
+    width: auto;
+    max-width: 280px;
+    color: $color-v3-grey-light;
+  }
+}

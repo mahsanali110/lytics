@@ -1,0 +1,42 @@
+@import 'theme/variables.scss';
+
+.MainMenu {
+  background-color: transparent !important;
+  line-height: 0;
+  display: flex;
+  //   gap: 1rem;
+  .v3-menu-item {
+    margin: 0;
+    padding: 12px 12px !important;
+    border-radius: 12px;
+    &:hover {
+      background-color: transparent !important;
+      a {
+        color: $color-v3-red-imperial;
+      }
+    }
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    a {
+      font-size: 12px;
+      font-weight: 600;
+      font-family: 'Roboto';
+      color: white;
+      letter-spacing: 1px;
+    }
+  }
+
+  .v3-menu-item.active {
+    background-color: $color-v3-red-imperial;
+  }
+  .v3-menu-item.disable {
+    display: none;
+    background-color: transparent !important;
+    cursor: auto;
+    a {
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  }
+}

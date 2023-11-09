@@ -1,0 +1,78 @@
+@import 'theme/variables.scss';
+
+.save-wrapper {
+  background-color: #121a34;
+  color: $white;
+  border: 1px solid #1d2642;
+  border-radius: 5px;
+  padding: 10px;
+
+  .save-heading {
+    color: white;
+    text-align: center;
+  }
+
+  .Popup-input {
+    //   margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1rem;
+    &:focus {
+      border: none;
+      border-bottom: 1px solid white;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .Popup-textarea {
+    background-color: #1d2642 !important;
+    border-radius: 5px;
+    height: 120px;
+    resize: none;
+  }
+  .Popup-input,
+  .Popup-textarea {
+    font-size: 1rem;
+    color: $white;
+    &::placeholder {
+      color: #777d8e;
+      // font-size: 11px;
+      font-family: 'Roboto';
+    }
+  }
+
+  .checkbox-container {
+    .ant-checkbox-wrapper {
+      &:hover .ant-checkbox {
+        border-color: $color-danger;
+      }
+      &:hover input {
+        border-color: $color-danger;
+      }
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: $color-danger;
+      border-color: $color-danger;
+    }
+    span {
+      font-size: 14px;
+      color: $white;
+      font-family: 'Roboto';
+    }
+  }
+
+  .ant-btn {
+    background-color: $color-ligt-grey;
+    color: $white;
+    border-color: $color-ligt-grey;
+    border-radius: 2px;
+    min-width: 105px;
+
+    &:hover,
+    &:focus {
+      border-color: $color-ligt-grey;
+      //   border: none;
+    }
+  }
+}

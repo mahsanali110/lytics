@@ -1,0 +1,36 @@
+@import '../../../theme/variables';
+.filters {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  .checkbox-pre-label {
+    display: inline-flex;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-bottom: 2px;
+    color: $white;
+  }
+  .ant-checkbox-group {
+    label {
+      color: #e0e0e0;
+      font-size: 16px;
+      .ant-checkbox {
+        .ant-checkbox-inner {
+          border: 1px solid #dadada;
+          background: none;
+        }
+      }
+      .ant-checkbox-checked {
+        .ant-checkbox-inner {
+          background: $color-pink;
+        }
+        .ant-checkbox-inner:after {
+          border: 2px solid $black;
+          border-top: 0;
+          border-left: 0;
+        }
+      }
+    }
+  }
+}

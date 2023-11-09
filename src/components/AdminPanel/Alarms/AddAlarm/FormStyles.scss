@@ -1,0 +1,17 @@
+@import 'theme/variables.scss';
+
+.add-alarm {
+  .number-input {
+    padding: 0px !important;
+  }
+  .ant-input-number-handler-wrap {
+    background: transparent;
+    border-color: transparent;
+    .anticon {
+      color: $text-primary;
+    }
+    .ant-input-number-handler-down {
+      border-color: transparent;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+@import 'theme/variables';
+
+.content-export-parent {
+  height: 70vh;
+  background-color: #3e404b;
+  .refrehBtnClass {
+    margin-right: 24px;
+    font-size: 1.5rem;
+  }
+
+  .process-wrapper {
+    color: white;
+    height: 100%;
+    overflow: auto;
+    .grey-box {
+      height: 90%;
+      // width: 200px;
+      // margin-bottom: 5%;
+      // padding-bottom: 2%;
+      // background-color: #5a5c69;
+    }
+    .window-close-icon {
+      z-index: 9999;
+      svg {
+        path:nth-of-type(1) {
+          fill: #EF233C;
+        }
+        path:nth-of-type(2) {
+          fill: #3e404b;
+        }
+        path:nth-of-type(3) {
+          fill: #EF233C;
+        }
+      }
+    }
+    .export-footer {
+      // margin-top: 14.8rem;
+      // margin-bottom: 1rem;
+      margin-left: 0.3rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .sub-heading {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      span {
+        font-weight: 500;
+        font-size: 12px;
+        color: $color-white;
+      }
+      padding-bottom: 16px;
+      .btn-edit-trans {
+      }
+    }
+    .ant-select-selectsion-item {
+      background: #3e404b !important;
+      border-color: #3e404b !important;
+      color: #f2f2f2;
+    }
+    .content-footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      align-items: center;
+      .checkbox-export {
+        // margin-top: 0.5rem;
+        color: #ffffff;
+      }
+    }
+    .table-wrapper {
+    }
+    .export-footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      padding-right: 0.5rem;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: rgba(242, 106, 50, 1) !important;
+      outline: none !important;
+      border: none !important;
+    }
+    .ant-checkbox-wrapper:hover .ant-checkbox-inner:hover {
+      outline: none !important;
+      border: none !important;
+    }
+    .segment-container .segment-container-body.secondary-bg {
+      padding: 0px;
+      overflow: auto;
+      height: 100%;
+    }
+  }
+  .segment-container .segment-container-body.secondary-bg {
+    padding: 0px;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 73.3vh;
+  }
+}
+.segment-container .segment-container-body.secondary-bg {
+  padding: 0px;
+  // overflow: auto;
+  overflow-x: hidden;
+  // height: 74.2vh;
+}

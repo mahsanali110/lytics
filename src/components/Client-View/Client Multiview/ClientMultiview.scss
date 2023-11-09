@@ -1,0 +1,109 @@
+.client-multiview-wrapper {
+  // max-height: 75vh;
+  // margin: 20px;
+  // padding: 1rem;
+  // overflow: auto;/
+  // background-color: #3e404b;
+  // border-radius: 15px;
+  margin-top: 1rem;
+  .channels-search-container {
+    padding: 5px 20px 20px 20px;
+  }
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
+  .ant-row {
+    row-gap: 32px !important;
+    margin-top: 2%;
+  }
+  .ant-col {
+    padding-left: 0 !important;
+    transition: 0.5s ease-in-out;
+
+    .ant-col-4 {
+      display: flex !important;
+      // min-height: 72vh;
+      // overflow: auto;
+      // width: 40%;
+      //padding-left: 0 !important;
+    }
+  }
+  .ant-last-col {
+    padding-right: 16px !important;
+  }
+  .ant-col-19 {
+    // background-color: #2d2f3a;
+    // min-height: 75vh;
+    // overflow: auto;
+    // padding: 0.8rem;
+    // border-radius: 15px;
+    // width: 60%;
+  }
+  //   // .left {
+  //   //   width: 22%;
+  //   // }
+  //   // .right {
+  //   //   width: 80%;
+  //   // }
+}
+.client-multiview-wrapper {
+    .ant-col-6{
+flex: 0 0 20%;
+    }
+  .channel-wrapper {
+    width: 300px;
+    height: 90vh;
+    background-color: #131c3a;
+    padding: 0px 12px;
+    // overflow-y: auto;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out;
+    z-index: 1;
+    margin-right: -1rem;
+    position: absolute;
+    top: -14px;
+    left: -24px;
+  }
+  .inactive {
+    width: 0px;
+  }
+  .channel-drawer-button-main {
+    .left-drawer-open {
+      width: 100%;
+      margin-top: 15px;
+      // margin-right: 90px;
+      // margin-left: 30px;
+      margin-left: -40px;
+
+      transition: margin-top 0.5s ease-in-out, margin-left 0.5s ease-in-out, width 0.5s ease-in-out,
+        margin-right 0.5s ease-in-out;
+    }
+    .channel-drawer-button-left {
+      position: absolute;
+      top: 5.5vh;
+      left: 0px;
+      // display: none;
+    }
+    .channel-drawer-button-wrapper {
+      height: 89vh;
+      width: 71px;
+      margin-top: 13px;
+      background-color: #131c3a;
+
+      // text-align: center;
+      .menu-icon {
+        font-size: '2rem';
+      }
+    }
+    .drawer-button-wrapper {
+      height: 89vh;
+      width: 71px;
+      background-color: rgba(62, 64, 75, 1);
+
+      // text-align: center;
+      .menu-icon {
+        font-size: '2rem';
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import '../../theme/variables';
+.ant-layout {
+  background: $body-background;
+}
+.urgent-color{
+  color: red;
+}
+.high-color{
+  color: orange;
+}
+.normal-color{
+  color: green;
+}
+.low-color{
+  color: skyblue;
+}
+.ant-dropdown.ant-dropdown-placement-bottomLeft.ant-slide-up-appear.ant-slide-up-appear-prepare.ant-slide-up {
+  opacity: 1 !important;
+  pointer-events: initial !important;
+}

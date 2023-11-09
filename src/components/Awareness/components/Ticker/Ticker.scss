@@ -1,0 +1,111 @@
+@import 'theme/variables';
+.ticker-wrapper-parent {
+  height: 89vh;
+  background-color: #2A324A;
+  .refrehBtnClass {
+    margin-right: 24px;
+    font-size: 1.5rem;
+  }
+  .ticker-wrapper {
+    background-color: #2A324A;
+    // overflow: auto;
+    // height: 100%;
+
+    .grey-box {
+      height: 90%;
+      margin-bottom: 5%;
+      padding-bottom: 2%;
+      background-color: #2A324A;
+    }
+    .heading-wrapper {
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 10px;
+      margin-right: 5px;
+    }
+    .sub-heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      span {
+        margin: 10px 0 0 10px;
+        font-weight: 500;
+        font-size: 18px;
+        color: $color-white;
+      }
+    }
+    .ticker-date {
+      span {
+        margin: 0 0 0 10px;
+        color: $color-white;
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+    .ticker-select {
+      margin: 5px 0 5px 0;
+      width: 100%;
+      .ticker-select-container {
+        display: flex;
+        flex-direction: row;
+        // flex-basis: 50%;
+        // flex-grow: 1;
+        justify-content: space-evenly;
+      }
+    }
+    .channel-logo {
+      margin-top: 8px;
+    }
+    .ticker-canvas {
+      user-select: none;
+      // position: relative;
+      width: 250px;
+      // height: 420px;
+      // display: flex;
+      // flex-direction: row;
+      // justify-content: space-between;
+      // align-items: center;
+      margin-top: 30px;
+      canvas {
+        width: 250px;
+        height: 480px;
+        margin: 5px 0 0 15px;
+        //   border: 1px solid #3e404b;
+      }
+    }
+    .ticker-footer {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0 10px 0;
+    }
+    .window-close-icon {
+      z-index: 9999;
+      svg {
+        path:nth-of-type(1) {
+          fill:  #EF233C;
+        }
+        path:nth-of-type(2) {
+          fill: #3e404b;
+        }
+        path:nth-of-type(3) {
+          fill:  #EF233C
+        }
+      }
+    }
+  }
+  .segment-container .segment-container-body.secondary-bg {
+    padding: 0px;
+    height: 83vh;
+    // overflow: auto;
+    overflow-x: hidden;
+    // height: 83.8vh;
+  }
+}
+.segment-container .segment-container-body.secondary-bg {
+  padding: 0px;
+  // height: 84vh;
+  // overflow: auto;
+  overflow-x: hidden;
+  // height: 83.8vh;
+}

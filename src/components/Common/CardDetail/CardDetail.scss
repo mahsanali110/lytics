@@ -1,0 +1,46 @@
+@import '../../../theme/variables';
+
+.card-detail-primary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  // border: 3px solid $border-primary;
+  border-left: none;
+  border-right: none;
+  .card-left-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-right-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    date,
+    time {
+      font-family: $regular-fonts;
+      font-weight: normal;
+      color: rgba($color: $white, $alpha: 0.8);
+      font-size: 10px;
+    }
+  }
+  .icon-wrapper {
+    padding-right: 10px;
+  }
+}
+
+.card-detail-secondary {
+  padding: 8px 0;
+  border: 3px solid $border-primary;
+  border-left: none;
+  border-right: none;
+}
+
+.card-detail-secondary.invert {
+  border-top: none;
+}
+
+.margin-left {
+  display: inline-block;
+  margin-left: 10px;
+}

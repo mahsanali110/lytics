@@ -1,0 +1,12 @@
+@import 'theme/variables';
+.create-account-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .create-account-container {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,302 @@
+@import 'theme/variables';
+.search-drawer {
+  // margin-top: 140px;
+  .ant-drawer-header {
+    display: none;
+  }
+  &.ant-drawer-open {
+    width: 100% !important;
+  }
+  .ant-drawer-mask {
+    opacity: 1 !important;
+    // width: 100% !important;
+  }
+  .d-flex-justify-center {
+    display: 'flex';
+    justify-content: 'center';
+  }
+  .d-flex-justify-between {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px;
+  }
+  .tags-style {
+    background-color: #ef233c;
+    width: auto;
+    margin: 5px;
+  }
+
+  .ant-drawer-body {
+    background-color: #131c3a;
+    line-height: 0.6;
+  }
+  .btn-bg {
+    background-color: #131c3a;
+  }
+  .header-btn {
+    display: flex;
+    justify-content: right;
+  }
+  .btn-style {
+    margin-right: 5px;
+    padding: 0px;
+    color: #ffffff;
+    background: #131c3a;
+    border-radius: 5px;
+    // border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+  .btn-style-orng {
+    margin-right: 5px;
+    padding: 0px;
+    background-color: #ef233c;
+    color: white;
+    // border: none;
+  }
+  .border-none {
+    border: none;
+  }
+  .btn-style-default-save {
+    margin-right: 5px;
+    padding: 0px;
+    background-color: rgba(239, 35, 60, 0.18);
+    color: white;
+    // border: none;
+  }
+  .bg-default-apply {
+    background-color: rgba(239, 35, 60, 0.18);
+  }
+  .border-style {
+    width: 100%;
+    border-radius: 5px;
+    // border-color: red;
+    outline: 5px;
+  }
+  .programe-type-style {
+    width: auto;
+    margin: 5px 5px 5px 0px;
+    border-radius: 3px;
+    border: 1px solid #b7b7b7;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+  .programe-type-style-orng {
+    width: auto;
+    margin: 5px 5px 5px 0px;
+    border-radius: 3px;
+    border: none;
+    background: #ef233c;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+
+  .bg-orange {
+    background-color: #ef233c;
+  }
+  .b_n {
+    border: none;
+  }
+  .f-25 {
+    font-size: 25px;
+  }
+  .mt-5 {
+    margin-top: 5px;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+  .mt-15 {
+    margin-top: 15px;
+  }
+  .heading_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .filter_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  .clear_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #b7b7b7;
+    background-color: transparent;
+  }
+  .content_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  .chanels_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+
+  .align_center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .main {
+    display: flex;
+    position: relative;
+    padding-left: 18.36px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .chanel_label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  .date_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    margin-bottom: 13px;
+  }
+  .duration_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  .program_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  .status_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  .sub_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  input[type='checkbox'] {
+    visibility: hidden;
+  }
+  .geekmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #ef233c;
+  }
+  .geekmark1 {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  .geekmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  /* Display checkmark when checked */
+  .main input:checked ~ .geekmark:after {
+    display: block;
+  }
+  .main .geekmark:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .main .test:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: block;
+  }
+  .date_heading input {
+    color: #b7b7b7;
+  }
+}

@@ -1,0 +1,62 @@
+@import '../../../theme/variables.scss';
+
+.client-dashboard-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 0px 10px;
+  margin-top: 2%;
+
+  .lineGraph {
+    height: 550px;
+    background: $secondary-background;
+    border-radius: 1rem;
+  }
+  .significant-sub-themes {
+    height: 550px;
+    width: 1000px;
+    background: $secondary-background;
+    border-radius: 1rem;
+  }
+  .stateGraph {
+    .date_classes {
+      font-size: 12px;
+      margin-right: -10px;
+      opacity: '0.8';
+    }
+
+    .graph-container {
+      height: 450px;
+      position: relative;
+      .recharts-tooltip-wrapper {
+        color: #000;
+        position: relative;
+      }
+      .graph-download-button {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+      }
+    }
+    .graph-filters-container {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      align-self: center;
+      margin: 0 30px;
+    }
+    .graph-heading {
+      display: flex;
+      justify-content: space-between;
+      font-size: 23px;
+      padding: 15px 30px 0px;
+    }
+    .trend-analysis {
+      height: 550px;
+      background: $secondary-background;
+      border-radius: 1rem;
+    }
+  }
+}

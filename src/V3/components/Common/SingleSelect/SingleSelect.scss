@@ -1,0 +1,35 @@
+@import 'theme/variables.scss';
+
+.SingleSelect {
+  width: 100%;
+  .ant-select-selector {
+    width: 100%;
+    background-color: $color-v3-grey-dark !important;
+    padding: 10px 8px;
+    border: 1px solid;
+    border-color: transparent !important;
+    outline: none;
+    width: 100%;
+
+    &:focus-within {
+      border: 1px solid white !important;
+    }
+  }
+}
+
+.v3-option-single {
+  background-color: transparent !important;
+  .ant-select-item-option-state {
+    display: none;
+  }
+}
+
+.rc-virtual-list-holder-inner .v3-option-single div:hover {
+  background-color: transparent !important;
+}
+
+.ant-select-arrow {
+  svg {
+    fill: white;
+  }
+}

@@ -1,0 +1,107 @@
+@import 'theme/variables';
+
+.info-wrapper {
+    padding: 10px;
+    .info-body-wrapper {
+        color: $white;
+        display: flex !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-around;
+        .info-body-content {
+            width: 300px;
+            max-width: 300px;
+            color: $white;
+            .info-card-content {
+                display: flex;
+                justify-content: center;
+                padding: 30px;
+                align-content: center;
+                text-align: center;
+            }
+            .ant-typography {
+                color: $white;
+            }
+            .trainingIcon{
+                fill: $color-pink;
+            }
+            .info-card-text {
+                margin-top: 33px;
+                margin-bottom: 33px;
+
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.4px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .ant-collapse {
+                border-radius: 8px;
+                overflow: hidden;
+            }
+        }
+        .ant-card {
+            max-width: 300px;
+            height: 250px;
+        }
+        .ant-collapse {
+            border: 1px solid $light-grey;
+            min-width: 300px;
+            max-width: 300px;
+            .ant-collapse-item {
+                background-color: $color-light-grey;
+                border-bottom: 1px solid $light-grey;
+                .ant-collapse-header {
+                    color: $white;
+                    &:focus{
+                        background-color: $light-grey;
+                    }
+                    .ant-collapse-extra {
+                        float: left;
+                        padding-right: 20px;
+                    }
+                }
+            }
+            .ant-collapse-content {
+                color: $white;
+                border-top: 1px solid $light-grey;
+                .ant-collapse-content-active {
+                    background-color: $light-grey;  
+                }
+            }
+            .ant-collapse-content-box {
+                background-color: $color-light-grey;    
+            }
+        }
+    }
+    .search-field {
+        flex-grow: 1;
+        margin-bottom: 20px;
+        .ant-input-affix-wrapper {
+            background: $light-grey;
+            border: none;
+            border-bottom: 2px solid $border-bottom;
+            border-radius: 12px;
+            .ant-input-prefix {
+            padding: 10px;
+            font-size: 20px;
+            color: $color-pink;
+            margin-left: 10px;
+            }
+            .ant-input {
+            height: 40px;
+            margin-left: 30px;
+            }
+        }
+        .ant-input-affix-wrapper-focused {
+            background-color: $light-grey;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.Modal {
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-button {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .upload-button {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .Modal-footer-button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    Button {
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+  }
+}

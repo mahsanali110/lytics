@@ -1,0 +1,11 @@
+
+@import 'theme/variables';
+
+.add-more-wrapper {
+  cursor: pointer;
+
+  span.text {
+    color: $color-grey;
+    padding-left: 5px;
+  }
+}

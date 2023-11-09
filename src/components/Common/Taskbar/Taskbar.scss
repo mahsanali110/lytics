@@ -1,0 +1,41 @@
+@import 'theme/variables';
+.task-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 57px;
+  background-color: $secondary-background;
+  border-radius: 14px;
+  box-shadow: 0px 12px 23px rgba(62, 73, 84, 0.04);
+  padding: 0 10px;
+  position: relative;
+
+  .task-bar-title {
+    color: $color-pink;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .task-bar-percentage {
+    flex-grow: 1;
+    padding: 0 5px;
+  }
+  .progress-text {
+    color: $white;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .ant-progress-inner {
+    background-color: $color-dark-blue;
+  }
+  .ant-progress-bg {
+    height: 15px !important;
+  }
+
+  .progress-text.completed-jobs {
+    position: absolute;
+    left: 40%;
+    z-index: 1;
+  }
+}

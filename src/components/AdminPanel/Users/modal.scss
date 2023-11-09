@@ -1,0 +1,35 @@
+.Modal {
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: rgba(242, 106, 50, 1) !important;
+    outline: none !important;
+    border: none !important;
+  }
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner:hover {
+    outline: none !important;
+    border: none !important;
+  }
+  .download-button {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .upload-button {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .ant-modal-close-x {
+    color: antiquewhite;
+  }
+  .Modal-footer-button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    Button {
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+  }
+}

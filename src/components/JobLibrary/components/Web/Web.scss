@@ -1,0 +1,152 @@
+.drawer-details-div {
+  background-color: #121a34;
+  color: white;
+  height: fit-content;
+  width: 100%;
+  border-radius: 1%;
+
+  .details-sub-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Roboto';
+
+    .profileImage {
+      border-radius: 50%;
+    }
+
+    span {
+      margin: 0px;
+      font-size: 13.5px;
+    }
+
+    .headingName {
+      width: 100%;
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      line-height: 19px;
+      margin: 0px;
+    }
+
+    .date-section {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 85%;
+    }
+  }
+
+  .writer-span {
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    font-style: normal;
+  }
+
+  .program-details {
+    color: white;
+    margin-top: 1%;
+    h1 {
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+    }
+    span {
+      position: relative;
+      top: 0px;
+    }
+  }
+}
+
+.image-section {
+  display: flex;
+  background-color: #121a34;
+  color: white;
+  height: fit-content;
+  width: 100%;
+  border-radius: 1%;
+  padding: 2%;
+
+  .headlineSection {
+    width: 40%;
+    padding: 10px;
+    .headline {
+      font-family: 'Noto Nastaliq';
+      width: auto;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 40px;
+    }
+  }
+
+  .thumbnailSection {
+    display: flex;
+    width: 60%;
+    margin-right: 15px;
+
+    .article-image {
+      height: 136px;
+    }
+  }
+}
+
+.topics-hashtags-div {
+  background-color: #121a34;
+  color: white;
+  min-height: 0% !important;
+  height: auto;
+  width: 96%;
+  border-radius: 1%;
+  padding: 2%;
+  margin: 2% 0 0 2%;
+  h1 {
+    color: white;
+  }
+  .hashtag_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .hashtags-details {
+    width: fit-content;
+    height: 4vh;
+    background: #2f3a60;
+    border-radius: 21px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: small;
+    margin-top: 1.5%;
+    line-height: 12px;
+  }
+}
+.english {
+  font-family: 'Roboto' !important;
+}
+.urdu {
+  font-family: 'Noto Nastaliq' !important;
+}
+.program-details {
+  color: white;
+  margin-top: 1%;
+  h1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+  span {
+    position: relative;
+    top: -10px;
+  }
+}

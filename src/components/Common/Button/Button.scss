@@ -1,0 +1,98 @@
+@import 'theme/variables';
+.ims-button-wrapper {
+  .ant-btn {
+    font-family: $regular-fonts;
+    font-weight: 600;
+    // box-shadow: none;
+    // box-shadow: 0px 12px 23px 0px rgba(62, 73, 84, 0.04) !important;
+    // box-shadow: 0px 5px 5px #3e404b;
+    //    box-shadow: 0px 12px 23px rgba(31, 35, 39, 0.1);
+    border-radius: 8px;
+    border: 1px solid;
+    min-width: 100px;
+    min-height: 36px;
+    &:hover {
+      opacity: 0.8;
+    }
+    &:disabled {
+      opacity: 0.4;
+      &:hover {
+        color: $secondary-background;
+      }
+    }
+  }
+
+  .primary-btn {
+    color: $color-pink;
+    background: linear-gradient(
+      267.1deg,
+      rgba(72, 189, 234, 0.1) 47.59%,
+      rgba(106, 224, 217, 0.1) 67%
+    );
+  }
+  .secondary-btn {
+    color: $color-pink;
+
+    background: linear-gradient(
+      267.1deg,
+      rgba(72, 189, 234, 0.1) 47.59%,
+      rgba(106, 224, 217, 0.1) 67%
+    );
+  }
+
+  .ant-btn.big-btn {
+    min-height: 60px;
+  }
+  .ant-btn.small-btn {
+    min-height: 20px !important;
+    font-weight: 300 !important;
+  }
+
+  .ant-btn.tiny-btn {
+    min-height: 10px !important;
+    font-weight: 300 !important;
+    height: 23px !important;
+    padding: 0 !important;
+    min-height: 20px !important;
+    min-width: 62px !important;
+    font-weight: 300 !important;
+    font-size: 10px !important;
+    width: 62px !important;
+    background: linear-gradient(
+      257.51deg,
+      rgba(222, 172, 85, 0.1) 1.48%,
+      rgba(222, 172, 85, 0.1) 59.07%
+    ) !important;
+    // color: rgba(222, 172, 85, 1) !important;
+    border: '1px solid rgba(222, 172, 85, 1)' !important;
+    border-radius: 8px;
+    box-shadow: none !important;
+    line-height: 1 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .library-table-button {
+    font-family: 'Roboto';
+    svg {
+      width: 20px;
+      height: auto;
+      margin-right: 4px;
+    }
+  }
+
+  .print-clipper-submit-button {
+    background: rgba(180, 28, 59, 0.72);
+    border-radius: 9px;
+    width: 164.91px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    color: #ededed;
+    border-color: transparent;
+  }
+}

@@ -1,0 +1,29 @@
+@import 'theme/variables';
+
+.topics-wrapper {
+  height: 100%;
+  background: #2A324A;
+  padding: 10px;
+  .topic-header {
+    color: $white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    // margin: 15px 0;
+    text-align: center;
+  }
+  .topics-container {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    h4 {
+      color: $white;
+    }
+    .orange-text {
+      color: $color-pink;
+    }
+  }
+}

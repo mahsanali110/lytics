@@ -1,0 +1,15 @@
+@import "../../../theme/variables.scss";
+.errorBoundary {
+  background-color: #43487a;
+  width: 100%;
+  text-align: center;
+  padding-top: 126px;
+  height: calc(100vh - 58px);
+  h1 {
+    color: #e6e6e6;
+  }
+  p {
+    color: #d2d2d2ef;
+    font-size: 18px;
+  }
+}

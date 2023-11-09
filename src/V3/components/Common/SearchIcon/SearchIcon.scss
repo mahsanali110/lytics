@@ -1,0 +1,17 @@
+@import 'theme/variables.scss';
+
+.SearchIcon {
+  padding: 5px;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  background-color: $color-v3-black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    path {
+      fill: $color-v3-red-imperial;
+    }
+  }
+}

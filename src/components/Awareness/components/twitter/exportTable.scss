@@ -1,0 +1,30 @@
+.exportTable-wrapper {
+  .ant-table {
+    background: #2A324A;
+    border-radius: 0px;
+  }
+  .table-container .ant-table tr td {
+    // border-bottom: 0px;
+  }
+  .table-container .ant-table .ant-table-thead tr th {
+    background-color: #2A324A;
+  }
+  ::-webkit-scrollbar {
+    display: inline !important;
+    margin-right: 10px !important;
+    padding-right: 10px;
+  }
+  .exportTable-load {
+    background-color: #2A324A;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    h1 {
+      color: white;
+      font-family: 'Roboto';
+      font-size: 1rem;
+      padding: 0.3rem;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}

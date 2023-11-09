@@ -1,0 +1,12 @@
+.thumbnail-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.clip-multiple-select.ant-select-disabled {
+  .ant-select-selection-overflow-item {
+    .ant-select-selection-item {
+      color: white !important;
+      border: none;
+    }
+  }
+}

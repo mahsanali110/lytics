@@ -1,0 +1,34 @@
+@import 'theme/variables.scss';
+
+.Button {
+  padding: 1em;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.Button.primary {
+  background-color: $color-v3-red-imperial;
+}
+
+.Button.secondary {
+  background-color: $color-v3-grey-mid;
+}
+
+.Button.transparent {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.Button.disabled {
+  background-color: $color-v3-grey-mid;
+  color: $color-v3-grey-light;
+  cursor: not-allowed;
+}
+
+.Button.round {
+  border-radius: 6px;
+}

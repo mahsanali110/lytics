@@ -1,0 +1,86 @@
+@import 'theme/variables';
+
+.card-container-primary {
+  .ant-card-head {
+    font-family: $text-font;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;
+    color: $white;
+    border: none;
+  }
+  .ant-card-head-title {
+    padding: 0;
+    padding-top: 8px;
+  }
+  .ant-card-body {
+    padding: 16px 12px;
+  }
+}
+
+.card-container-secondary {
+  .ant-card-head {
+    padding: 0px 12px;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 18px;
+    color: $white;
+    border: none;
+  }
+  .ant-card-head-title {
+    padding: 0;
+    padding-top: 8px;
+  }
+  .ant-card-body {
+    padding: 0 12px 20px;
+  }
+}
+.card-container-secondary {
+  // .ant-card-head {
+  //   padding: 0px;
+  // }
+  // .ant-card-head-title {
+  //   padding: 0;
+  // }
+  .ant-card-body {
+    padding: 0 12px 0px;
+  }
+}
+
+.dark {
+  background-color: #131C3A;
+}
+
+.medium {
+  background-color: #131C3A;
+}
+
+.grey {
+  background-color: $color-grey;
+}
+
+.light {
+  background-color: $color-light-grey;
+}
+
+.lighter {
+  background-color: rgba($color-grey, 0.2) !important;
+}
+
+.mid-dark {
+  background-color: $color-mid-dark-grey;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+.square {
+  border-radius: none;
+}

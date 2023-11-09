@@ -1,0 +1,20 @@
+.summary-wrapper {
+  .ant-row {
+    .ant-col.ant-col-9 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
+.summary-tags-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  // .ant-tag {
+  //   margin-top: 5px;
+  // }
+}

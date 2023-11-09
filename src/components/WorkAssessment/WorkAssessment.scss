@@ -1,0 +1,27 @@
+@import 'theme/variables';
+.work-assessment-wrapper {
+  .ant-table {
+    max-height: 600px;
+    overflow: auto;
+    .task-bar {
+      width: 100%;
+      min-width: 250px;
+      background-color: #141D3B;
+      position: relative;
+    }
+    .ant-progress-inner {
+      background-color:#5a5c69;
+    }
+    hr {
+      height: 3px;
+      background-color: black;
+      border: none;
+      width: 80%;
+      position: absolute;
+      bottom: 9px;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, 0px);
+    }
+  }
+}

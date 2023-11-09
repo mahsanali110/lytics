@@ -1,0 +1,10 @@
+@import 'theme/variables';
+
+.editor-wrapper {
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}

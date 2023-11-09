@@ -1,0 +1,27 @@
+@import 'theme/variables.scss';
+
+.PreviewFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  min-height: 52px;
+  align-items: center;
+  border-top: 2px solid white;
+  background-color: $color-v3-light-black;
+  border-radius: 0px 0px 6px 6%;
+  gap: 1rem;
+
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    & > * {
+      cursor: pointer;
+    }
+  }
+
+  .search-bar-wrapper {
+    flex-grow: 1;
+  }
+}

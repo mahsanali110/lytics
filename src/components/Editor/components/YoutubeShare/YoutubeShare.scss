@@ -1,0 +1,15 @@
+@import 'theme/variables.scss';
+
+.youtube-accordion-wrapper {
+  padding: 10px;
+  //   border: 5px solid red;
+  .ant-collapse-ghost {
+    border: 1px solid #ef233c;
+    border-radius: 5px;
+  }
+
+  // .youtube-heading{
+  //   display: flex;
+  //   justify-content: center;
+  // }
+}

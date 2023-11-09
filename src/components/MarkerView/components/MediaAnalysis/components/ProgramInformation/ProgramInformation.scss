@@ -1,0 +1,17 @@
+@import 'theme/variables';
+
+.program-info-wrapper {
+  .program-info-body-wrapper-reviewer {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    overflow: auto;
+
+    .card-detail-body {
+      padding-left: 20px;
+      .list-container {
+        display: flex;
+      }
+    }
+  }
+}

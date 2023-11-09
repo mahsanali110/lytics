@@ -1,0 +1,232 @@
+@import '../../../theme/variables.scss';
+.player-controls-container-content {
+  width: 100%;
+  display: block;
+  background-color: $color-skin-light-gray;
+  min-height: 140px;
+  height: 230px;
+  max-height: 230px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-top: 2rem;
+  //bottom: -2.5rem;
+  .zoom-container {
+    // padding-top: 5px;
+    padding-bottom: 8px;
+    overflow-x: auto;
+  }
+  .zoom-container::-webkit-scrollbar {
+    display: block;
+  }
+  .time-line--container {
+    position: relative;
+    display: flex;
+    .timeline {
+      position: relative;
+      .pin {
+        position: absolute;
+        right: -5px;
+        cursor: pointer;
+        display: inline-block;
+        transform: translate(-50%);
+        height: 30px;
+        margin-top: -30px;
+        z-index: 9999;
+      }
+    }
+  }
+  .live-slider {
+    margin: 10px 0px !important;
+  }
+  .ant-row {
+    //padding: 4px !important;
+
+    .ant-row {
+      padding: 0px;
+    }
+  }
+  .player-time {
+    font-family: unispace;
+    letter-spacing: 1.5px;
+  }
+  .player-time-start {
+    text-align: start;
+  }
+  .player-time-end {
+    text-align: end;
+  }
+
+  .control-icon {
+    font-size: 18px;
+    padding: 0px 5px;
+    color: $white;
+    margin-top: 14px;
+    :hover {
+      cursor: pointer;
+      opacity: 0.9;
+    }
+    .anticon {
+      color: $white; 
+    }
+  }
+  .calendar-icon {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .live-play-icon {
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  .live-play-control-content {
+    margin-top: 1.6rem;
+    margin-left: 1rem;
+    text-align: center;
+    cursor: pointer;
+    .control-icon {
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // margin-top: 3rem;
+      // padding-top: 3rem;
+    }
+    color: $color-green;
+  }
+  // .ant-btn-text:focus,
+  // .ant-btn-text:hover {
+  //   background-color: $orange;
+  // }
+  .awareness-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+    font-size: 12px;
+    .awareness-controls_pin {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      .controls {
+        border: 1px solid white;
+        border-radius: 4px;
+        flex-basis: 80%;
+        display: flex;
+        justify-content: center;
+        .pin {
+          display: inline-block;
+          padding: 5px 0;
+          flex-grow: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+        }
+        .pin:not(:last-child) {
+          border-right: 1px solid white;
+          padding-top: 6px;
+          font-weight: bold;
+        }
+      }
+    }
+    .awareness-controls_ticker {
+      .tag {
+        text-align: center;
+        padding: 5px 0px;
+        border-radius: 2px;
+        line-height: 16px;
+        font-family: inherit;
+        display: inline-block;
+        width: 50px;
+        cursor: pointer;
+      }
+
+      .tag:not(:last-child) {
+        margin-right: 5px;
+      }
+
+      .tag-ticker {
+        background-color: #5077DB;
+      }
+      .tag-screen {
+        background-color: #FF566B;
+      }
+      .tag-clip {
+        background-color: #A86CE4;
+      }
+    }
+  }
+}
+.volume-control-container {
+  background: $white;
+  .volume-control {
+    height: 100px;
+    padding: 10px 0px;
+    .ant-slider-vertical {
+      margin: auto;
+    }
+  }
+}
+.ant-popover-arrow {
+  visibility: hidden;
+}
+.ant-popover-inner {
+  border-radius: 0px !important;
+}
+.ant-popover-inner-content {
+  padding: 0px 0px;
+  border: none;
+}
+.date-time-container {
+  height: 350px;
+  width: 412px;
+  border-radius: 0px;
+  padding: 10px 40px;
+  background: $secondary-background;
+  h2 {
+    color: $white;
+  }
+  .radio {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: $white;
+  }
+  .ant-picker-suffix {
+    color: $white;
+  }
+  .action-buttons {
+    margin-top: 15px;
+  }
+  .ant-form-item-control-input {
+    min-height: 0%;
+  }
+}
+.ant-picker-time-panel-column:after {
+  display: none;
+}
+
+.ant-picker-input input {
+  letter-spacing: 3px;
+}
+
+.player-speed {
+  background-color: transparent !important;
+  opacity: 0.5;
+  user-select: none;
+  color: lightgray;
+  // font-size: 0.8rem;
+  // width: 30px;
+  font-weight: bold;
+  opacity: 1 !important;
+  &:hover {
+    cursor: auto;
+    color: lightgray;
+    opacity: 1 !important;
+  }
+}
+.btn-content
+{
+  
+}

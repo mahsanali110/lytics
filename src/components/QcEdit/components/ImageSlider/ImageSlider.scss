@@ -1,0 +1,22 @@
+@import 'theme/variables';
+.image-slider-wrapper {
+  width: 40vw;
+  height: 60vh;
+  //   background-color: white;
+  .image-container {
+    width: 40vw;
+    height: 60vh;
+    .iconButton {
+      background-color: $color-danger !important;
+      cursor: pointer;
+    }
+  }
+
+  .ant-carousel .slick-dots-bottom {
+    bottom: -35px;
+    button {
+      background-color: $color-danger !important;
+      height: 5px;
+    }
+  }
+}

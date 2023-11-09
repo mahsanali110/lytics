@@ -1,0 +1,17 @@
+.content-segmentation-wrapper {
+  .ant-tabs-tab-active {
+    .ant-tabs-tab-btn {
+      color: rgba(242, 106, 50, 1) !important;
+    }
+  }
+  .ant-tabs-tabpane,
+  .ant-tabs-tabpane-active {
+    background-color: #2d2f3a !important;
+  }
+  .table-container .ant-table .ant-table-thead tr th {
+    // background-color: #5a5c69;
+    // border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+}

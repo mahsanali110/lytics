@@ -1,0 +1,15 @@
+
+@import 'theme/variables';
+
+.remove-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  padding-top: 5px;
+  
+  span.text {
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: 0.4px;
+  }
+}

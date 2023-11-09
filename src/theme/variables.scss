@@ -1,0 +1,137 @@
+$primary-color: rgb(6, 230, 239);
+$background-grey: rgb(242, 242, 242);
+$buttonGradient: linear-gradient(90deg, #ff6d4b 0%, #ffaa5f 130%);
+
+$heading-font: 'Nunito', sans-serif;
+$regular-fonts: 'Poppins', 'JameelNooriKasheeda';
+$text-font: 'Roboto', sans-serif;
+
+$minResolution: 1280px;
+$midResolution: 1440px;
+$maxResolution: 1800px;
+
+//Ant overrides
+$font-family: $text-font;
+
+//responnsive carousel
+$carouselWidthMin: 530px;
+$carouselWidthMid: 590px;
+$carouselWidthMax: 800px;
+
+$carouselHeightMin: 300px;
+$carouselHeightMid: 331px;
+$carouselHeightMax: 450px;
+
+//header height
+$headerHeight: 58px;
+
+/////
+$smaller-font-size-minus: 8px;
+$small-font-size-minus: 10px;
+$small-font-size: 11px;
+$smaller-font-size: 9px;
+$regular-font-size: 12px;
+$medium-font-size: 14px;
+$large-alt-font-size: 16px;
+$large-font-size: 18px;
+$header-menu-fonts-size: 17px;
+$header-menu-line-height: 17px;
+
+$base-line-height: 1;
+$medium-line-height: 1.1;
+$heading-line-height: 1.2;
+$large-line-height: 1.6;
+
+$base-spacing: 10px;
+$third-spacing: calc($base-spacing / 3);
+$half-spacing: calc($base-spacing / 2);
+$base-and-third-spacing: $base-spacing + $third-spacing;
+$base-and-half-spacing: $base-spacing + $half-spacing;
+$double-spacing: $base-spacing * 2;
+$triple-spacing: $base-spacing * 3;
+$quad-spacing: $double-spacing * 2;
+
+$body-background: #000425;
+$secondary-background: #010b2f;
+$black: #000;
+$white: #fff;
+$logo-grey: #999999;
+$divider: #f4f4f4;
+$color-ligt-grey: #455177;
+
+$sider-grey: #bdbdbd;
+$left-panel-color: #007d9d;
+
+$resident-sidebar: #eaf2f2;
+$resident-button-border-grey: #bbbbbb;
+
+$grey-color: #5a5c69;
+$light-grey-color: #fafafa;
+$light-grey: #5a5c69;
+// $blue: #00a8d2;
+$light-blue: #00b0d6;
+$dark-blue: #52a5d0;
+$blue-green: #28f8cb;
+
+$base-font-color: $white;
+$header-font-color: $white;
+
+//buttons
+
+$base-button-height: 40px;
+$base-button-font: 14px;
+$base-button-line-height: $medium-line-height;
+
+$primary-button-color: $white;
+$secondary-button-bg: $light-grey-color;
+$tertiary-button-bg: $white;
+
+$color-balance: #288fbe;
+$color-grey-blue: #2a324a;
+$color-default: #474954;
+$color-green: #1ea476;
+$color-danger: #d04545;
+$color-blue: #48beeb;
+$color-orange: #f26a32;
+$color-purple: #c377df;
+$color-grey: #d3d3d3;
+$color-red: #ec4040;
+$color-pink: #ef233c;
+$color-primary-dark: $body-background;
+$color-light-grey: #2a324a;
+$color-medium-grey: #5a5c69;
+$color-dark-blue: #131c3a;
+$color-dark-blue-new: #15182e;
+$color-skin-light-gray: #2a324a;
+$color-grey: #d3d3d3;
+$color-white: #ffffff;
+$color-mid-dark-grey: #72747e;
+$color-editor-textarea: #1d2642;
+
+$text-primary: #f2f2f2;
+$text-orange: $color-orange;
+$text-grey: $color-grey;
+$text-pink: $color-pink;
+$text-blue: $color-blue;
+$text-green: $color-green;
+$text-red: $color-red;
+
+$color-input-bg: #1c1f35;
+
+// Border
+$base-border-color: $color-light-grey;
+$base-border: 1px solid $base-border-color;
+$light-border: 1px solid $color-grey;
+
+$border-bottom: #5e6065;
+$darkGray: #21232e;
+
+$border-primary: $color-primary-dark;
+
+//////////////////// V3 colors ///////////////////////
+$color-v3-black: #191919;
+$color-v3-grey-dark: #303030;
+$color-v3-grey-mid: #444444;
+$color-v3-grey-light: #999999;
+$color-v3-red-imperial: #ef233c;
+$color-v3-light-black: #222222;

@@ -1,0 +1,161 @@
+.editor {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    cursor: text;
+    padding: 16px;
+    border-radius: 2px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    // padding-top: 2em;
+    box-shadow: inset 0px 1px 8px -3px #ABABAB;
+    background: #D3D3D3;
+    color: black;
+    font-size: 1rem;
+  }
+  .headlineButtonWrapper {
+    display: inline-block;
+  }
+  
+  .headlineButton {
+    background: #fbfbfb;
+    color: #888;
+    font-size: 18px;
+    border: 0;
+    padding-top: 5px;
+    vertical-align: bottom;
+    height: 34px;
+    width: 36px;
+  }
+  
+  .headlineButton:hover,
+  .headlineButton:focus {
+    background: #f3f3f3;
+  }
+  .toolbar
+  {
+    display:flex;
+    // position:fixed;
+    position: sticky;
+    margin-bottom:10px;
+    height:3rem;
+    justify-content: space-between;
+    // box-shadow: inset 0px 1px 8px -3px #ABABAB;
+    .toolbar-button-wrapper
+    {
+      height:10px;
+      background-color:#5A5C69;
+      // padding:10px;
+      text-align: center;
+      color:#C25930;
+      justify-content: center;
+      cursor:pointer;
+      border-radius: 5px;
+
+    }
+    .toolbar-button
+    {
+      background-color: #5A5C69;
+      color:#C25930;
+      height:2.5rem;
+      width:2.5rem;
+      border-radius: 5px;
+      font: bold;
+      cursor:pointer;
+      // 
+    }
+    .toolbar-button-active
+    {
+      background-color: white;
+    }
+
+  }
+ .tox-tbtn--enabled
+  {
+    background-color: #EF233C !important;
+    color: white !important;
+    // cursor: pointer !important;
+  }
+   .tox-tbtn--enabled:hover 
+  {
+    background-color: #EF233C !important;
+    color: white !important;
+  }
+  .tox .tox-toolbar__group 
+  {
+    // border: 5px solid #3F475F;
+  }
+  .tox :not(svg):not(rect)
+  {
+    // background-color: #3F475F !important;
+  }
+  .tox-tinymce
+  {
+    border: none !important;
+    padding-bottom: -20px !important;
+  }
+  .tox:not(.tox-tinymce-inline) .tox-editor-header
+  {
+    padding: 0 !important;
+  }
+  .mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before
+  {
+    font-size: 20px !important;
+  }
+
+  //
+
+  .Modal {
+    background-color: #5C6275;
+    height: 229px;
+    margin: 3rem 2rem;
+    // width:;
+    .modal-heading {
+      text-align: center;
+      // margin-top: 4rem;
+    }
+    .button-wrapper {
+      display: flex;
+      align-items: center;
+      // justify-content: flex-start; 
+      // margin-top: 2rem;
+  
+      .upload-button {
+        margin-left: 10px;
+        // margin-right: 2rem;
+        // width: 50%;
+  
+        .btn {
+          background-color: #d3d3d3;
+          color: #32333c;
+          border: none;
+          border-radius: 4px;
+          width: 129px;
+          height: 56px;
+          font-family: Roboto;
+          font-weight: 800;
+          font-size: 18px;
+        }
+        .btn:hover {
+          // background-color: #d3d3d3;
+          border: none;
+          color: #32333c;
+        }
+      }
+      .file-label {
+        // margin-left: 3rem;
+        // text-align: center;
+        // width: 50%;
+        margin-top: 1rem;
+        h1 {
+          color: #d3d3d3;
+          font-family: Roboto;
+          margin: 0;
+        }
+      }
+    }
+    .Modal-footer-button {
+      margin-top: 1rem;
+      // padding-bottom: 1rem;
+      margin-left: 2rem;
+    }
+  }

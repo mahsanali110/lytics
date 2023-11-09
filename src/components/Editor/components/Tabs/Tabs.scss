@@ -1,0 +1,55 @@
+@import 'theme/variables';
+.editor_card-container {
+  .ant-tabs-card .ant-tabs-tab {
+    display: flex;
+    justify-content: center;
+    background: $color-light-grey;
+    border-color: $color-light-grey;
+    border-radius: 6px 6px 0 0 !important;
+    padding: 4px 12px;
+  }
+
+  .ant-tabs-nav-list {
+    align-items: flex-end;
+  }
+
+  .ant-tabs-card.ant-tabs-top {
+    .ant-tabs-tab-active {
+      border-bottom-color: $color-dark-blue;
+      background-color: $color-dark-blue;
+      // padding: 6px 12px;
+    }
+  }
+  .ant-tabs-card .ant-tabs-tab-btn {
+    font-family: $text-font;
+    color: $white;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .ant-tabs-tab-btn,
+  .ant-tabs-tab-remove {
+    transition: none !important;
+  }
+  .ant-tabs-card .ant-tabs-tab-active {
+    color: $white;
+    background: $color-light-grey;
+    border-color: $color-light-grey;
+  }
+  .ant-tabs-card .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: $white !important;
+  }
+  .ant-tabs-card {
+    .ant-tabs-content {
+      //   margin-top: -12px;
+      .ant-tabs-tabpane {
+        border-radius: 0 10px 0px 0px;
+        padding: 20px;
+        background: $color-dark-blue;
+      }
+    }
+  }
+}
+.card-container .ant-tabs-card .ant-tabs-top .ant-tabs-tab-active {
+  background-color: red;
+}

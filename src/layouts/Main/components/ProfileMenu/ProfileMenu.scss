@@ -1,0 +1,36 @@
+@import 'theme/variables';
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  max-height: 58px;
+  cursor: pointer;
+  user-select: none;
+
+  .info-icon-wrapper {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  .profile-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px; //
+    max-height: 58px;
+    border: 1px solid rgb($white, 0.3); //
+    .ims-profile-title-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 0 13px 0 5px;
+
+      max-height: 58px;
+    }
+    .ant-dropdown-link {
+      color: $white;
+      padding-right: 20px;
+    }
+    .ant-avatar-icon {
+      border-radius: 8px;
+    }
+  }
+}

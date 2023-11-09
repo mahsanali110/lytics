@@ -1,0 +1,191 @@
+.segment-analysis-wrapper {
+  // min-height: 710px;
+  // max-height: 710px;
+  height: 100%;
+  overflow: auto;
+}
+.program-info-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 572px;
+  min-height: 572px;
+  overflow: auto;
+  .ant-select-selection-item {
+    background: #72747e !important;
+    border-color: #72747e !important;
+    color: #f2f2f2;
+  }
+
+  .card-container-secondary {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 2720px) {
+  .segment-analysis-wrapper {
+    min-height: 977px;
+  }
+  .program-info-body-wrapper {
+    min-height: 834px;
+  }
+}
+@media only screen and (max-width: 2720px) {
+  .segment-analysis-wrapper {
+    min-height: 977px;
+  }
+  .program-info-body-wrapper {
+    min-height: 834px;
+  }
+}
+@media only screen and (max-width: 2195px) {
+  .segment-analysis-wrapper {
+    min-height: 974px;
+  }
+  .program-info-body-wrapper {
+    min-height: 831px;
+  }
+}
+@media only screen and (max-width: 2175px) {
+  .segment-analysis-wrapper {
+    min-height: 971px;
+  }
+  .program-info-body-wrapper {
+    min-height: 828px;
+  }
+}
+@media only screen and (max-width: 2156px) {
+  .segment-analysis-wrapper {
+    min-height: 968px;
+  }
+  .program-info-body-wrapper {
+    min-height: 825px;
+  }
+}
+@media only screen and (max-width: 2120px) {
+  .segment-analysis-wrapper {
+    min-height: 962px;
+  }
+  .program-info-body-wrapper {
+    min-height: 819px;
+  }
+}
+@media only screen and (max-width: 2090px) {
+  .segment-analysis-wrapper {
+    min-height: 957px;
+  }
+  .program-info-body-wrapper {
+    min-height: 815px;
+  }
+}
+@media only screen and (max-width: 2070px) {
+  .segment-analysis-wrapper {
+    min-height: 954px;
+  }
+  .program-info-body-wrapper {
+    min-height: 812px;
+  }
+}
+@media only screen and (max-width: 2050px) {
+  .segment-analysis-wrapper {
+    min-height: 951px;
+  }
+  .program-info-body-wrapper {
+    min-height: 809px;
+  }
+}
+@media only screen and (max-width: 2038px) {
+  .segment-analysis-wrapper {
+    min-height: 948px;
+  }
+  .program-info-body-wrapper {
+    min-height: 806px;
+  }
+}
+@media only screen and (max-width: 2013px) {
+  .segment-analysis-wrapper {
+    min-height: 942px;
+  }
+  .program-info-body-wrapper {
+    min-height: 800px;
+  }
+}
+@media only screen and (max-width: 1973px) {
+  .segment-analysis-wrapper {
+    min-height: 936px;
+  }
+  .program-info-body-wrapper {
+    min-height: 794px;
+  }
+}
+@media only screen and (max-width: 1940px) {
+  .segment-analysis-wrapper {
+    min-height: 930px;
+  }
+  .program-info-body-wrapper {
+    min-height: 788px;
+  }
+}
+@media only screen and (max-width: 1898px) {
+  .segment-analysis-wrapper {
+    min-height: 924px;
+  }
+  .program-info-body-wrapper {
+    min-height: 782px;
+  }
+}
+@media only screen and (max-width: 1865px) {
+  .segment-analysis-wrapper {
+    min-height: 918px;
+  }
+  .program-info-body-wrapper {
+    min-height: 776px;
+  }
+}
+@media only screen and (max-width: 1830px) {
+  .segment-analysis-wrapper {
+    min-height: 912px;
+  }
+  .program-info-body-wrapper {
+    min-height: 770px;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .segment-analysis-wrapper {
+    min-height: 903px;
+  }
+  .program-info-body-wrapper {
+    min-height: 763px !important;
+  }
+}
+@media only screen and (max-width: 1745px) {
+  .segment-analysis-wrapper {
+    min-height: 895px;
+  }
+  .program-info-body-wrapper {
+    min-height: 755px !important;
+  }
+}
+@media only screen and (max-width: 1700px) {
+  .segment-analysis-wrapper {
+    min-height: 887px;
+  }
+  .program-info-body-wrapper {
+    min-height: 747px !important;
+  }
+}
+@media only screen and (max-width: 1645px) {
+  .segment-analysis-wrapper {
+    min-height: 880px;
+  }
+  .program-info-body-wrapper {
+    min-height: 740px !important;
+  }
+}
+@media only screen and (max-width: 1602px) {
+  .segment-analysis-wrapper {
+    min-height: 873px;
+  }
+  .program-info-body-wrapper {
+    min-height: 733px !important;
+  }
+}
+// 1583

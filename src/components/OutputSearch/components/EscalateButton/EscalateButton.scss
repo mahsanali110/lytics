@@ -1,0 +1,17 @@
+.escalte-button{
+    color: #EF233C;
+    border: 1px solid  #EF233C;
+    border-radius: 8px;
+    box-shadow: 0px 12px 23px rgba(62, 73, 84, 0.04);
+    cursor: pointer;
+    
+background: rgba(187, 64, 64, 0.17);
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+.disable {
+    opacity: 0.4;
+    cursor: block;
+    pointer-events: none;
+}

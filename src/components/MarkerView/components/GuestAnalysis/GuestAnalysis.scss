@@ -1,0 +1,32 @@
+@import 'theme/variables';
+.guest-analysis-wrapper {
+  max-height: 80vh;
+  overflow: auto;
+}
+.guest-analysis-body-wrapper-reviewer {
+  .table-container {
+    .ant-table {
+      .ant-table-thead {
+        tr {
+          th {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 500;
+          }
+        }
+      }
+      tr {
+        &:hover {
+          td {
+            cursor: text;
+            background: none;
+          }
+        }
+        td {
+          text-align: center;
+        }
+      }
+    }
+
+  }
+}

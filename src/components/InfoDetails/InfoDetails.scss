@@ -1,0 +1,79 @@
+@import 'theme/variables';
+
+.infoDetailsCard {
+    .ant-card{
+        height: 90vh;
+    }
+    .InfoDetails-wrapper {
+        padding: 10px;
+        .InfoDetails-body-wrapper {
+            color: $white;
+            display: flex !important;
+            padding-left: 100px;
+            padding-right: 100px;
+            justify-content: center;
+            .InfoDetails-body-content {
+                color: $white;
+                .InfoDetails-card-content {
+                    display: flex;
+                    justify-content: center;
+                    padding: 30px;
+                    align-content: center;
+                    text-align: center;
+                }
+                .ant-typography {
+                    color: $white;
+                }
+                .trainingIcon{
+                    fill: $color-pink;
+                }
+                .InfoDetails-card-text {
+                    margin-top: 33px;
+                    margin-bottom: 33px;
+    
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 11px;
+                    line-height: 16px;
+                    letter-spacing: 0.4px;
+    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .ant-collapse {
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+            }
+            .ant-collapse {
+                border: 1px solid $light-grey;
+                .ant-collapse-item {
+                    background-color: $color-light-grey;
+                    border-bottom: 1px solid $light-grey;
+                    .ant-collapse-header {
+                        color: $white;
+                        &:focus{
+                            background-color: $light-grey;
+                        }
+                        .ant-collapse-extra {
+                            float: left;
+                            padding-right: 20px;
+                        }
+                    }
+                }
+                .ant-collapse-content {
+                    color: $white;
+                    border-top: 1px solid $light-grey;
+                    .ant-collapse-content-active {
+                        background-color: $light-grey;  
+                    }
+                }
+                .ant-collapse-content-box {
+                    background-color: $color-light-grey;    
+                }
+            }
+        }
+    }
+}

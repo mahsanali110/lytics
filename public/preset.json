@@ -1,0 +1,22 @@
+[
+  {
+    "quality": "HD",
+    "bitrate": "1200k",
+    "framesize": "960x540"
+  },
+  {
+    "quality": "HIGH",
+    "bitrate": "800k",
+    "framesize": "640x360"
+  },
+  {
+    "quality": "MEDIUM",
+    "bitrate": "400k",
+    "framesize": "480x270"
+  },
+  {
+    "quality": "LOW",
+    "bitrate": "256k",
+    "framesize": "256x144"
+  }
+]

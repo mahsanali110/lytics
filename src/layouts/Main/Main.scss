@@ -1,0 +1,55 @@
+@import '../../theme/variables';
+
+.main-header-wrapper {
+  padding: 5px 20px 10px 15px;
+  display: flex;
+  align-items: center;
+  // background-color: $color-dark-blue-new;
+  .version-wrapper {
+    background-color: transparent !important;
+    opacity: 0.5;
+    .version {
+      color: $white;
+      background-color: transparent !important;
+      font-family: li;
+      font-size: 0.8rem;
+      line-height: $base-line-height;
+      text-align: center;
+      margin-left: 5px;
+      letter-spacing: 0.3rem;
+    }
+  }
+}
+
+.main-content-wrapper {
+  padding: 0px 20px;
+}
+
+.main-client-header-wrapper {
+  padding: 6px 12px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $body-background;
+  .ant-menu-horizontal {
+    background: $body-background !important;
+  }
+  .version-wrapper {
+    background-color: transparent !important;
+    opacity: 0.5;
+    .version {
+      color: $white;
+      background-color: transparent !important;
+      font-family: li;
+      font-size: 0.8rem;
+      line-height: $base-line-height;
+      text-align: center;
+      margin-left: 5px;
+      letter-spacing: 0.3rem;
+    }
+  }
+}
+
+.main-client-content-wrapper {
+  padding: 0;
+}

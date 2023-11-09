@@ -1,0 +1,25 @@
+@import 'theme/variables.scss';
+
+.process-buttons-wrapper {
+  .process-button {
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+  .ant-btn {
+    background-color: $color-ligt-grey;
+    color: $white;
+    border-color: $color-ligt-grey;
+    border-radius: 2px;
+    min-width: 105px;
+
+    &:hover,
+    &:focus {
+      border-color: $color-ligt-grey;
+      //   border: none;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.portal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000000;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  .confirm-dialog {
+    z-index: 1000000000000111;
+    padding: 25px;
+    background-color: #3e404b;
+    width: 463px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+
+  .confirm-dialog__footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    .ims-button-wrapper:nth-child(1) {
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+@import '../../theme/variables.scss';
+.layout {
+  .ant-layout-sider {
+    background-color: $secondary-background;
+    margin-top: 31px;
+  }
+  .ant-menu-dark .ant-menu-sub,
+  .ant-menu.ant-menu-dark,
+  .ant-menu.ant-menu-dark .ant-menu-sub {
+    background-color: $secondary-background;
+  }
+  .menu-theme {
+    margin-top: 30px;
+  }
+  .site-layout {
+    .site-layout-header {
+      background-color: $body-background;
+      padding: 0;
+      margin-top: 100px;
+      margin-left: 40px;
+      .site-layout-row {
+        .site-layout-col-1 {
+          .btn {
+            height: 45px;
+            margin-top: 10px;
+            margin-left: 30px;
+            color: $color-pink;
+            background: linear-gradient(
+              257.51deg,
+              rgba(252, 95, 69, 0.1) 1.48%,
+              rgba(254, 153, 96, 0.1) 59.07%
+            );
+            border-color: $color-pink;
+            border-radius: 14px;
+            transition: 0.5s;
+            &:hover {
+              color: #f26a69;
+              background: linear-gradient(
+                257.51deg,
+                rgba(252, 95, 69, 0.4) 1.48%,
+                rgba(254, 153, 96, 0.4) 59.07%
+              );
+              border-color: $color-pink;
+            }
+          }
+        }
+        .site-layout-col-searchbar {
+          margin-left: 20px;
+          .search-bar {
+            position: relative;
+            margin-top: -10px !important;
+            width: 100% !important;
+            height: 50px;
+            background-color: $secondary-background !important;
+            border-right: none;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            &:hover {
+              background-color: blue;
+              border: none;
+            }
+          }
+        }
+        .site-layout-search-btn {
+          .search-btn {
+            position: absolute;
+            right: 5px;
+            top: 8px;
+            border: none;
+            background-color: $secondary-background;
+            height: 45px;
+            color: $white;
+
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+        }
+      }
+    }
+    .site-content {
+      overflow: initial;
+      margin-left: 30px;
+      .ant-layout-content {
+        background-color: $body-background;
+      }
+      .component-format {
+        margin-top: 30px;
+      }
+    }
+  }
+  .ant-select-selection-item {
+    // background: #131C3A;
+    border-color: #3e404b;
+    color: #f2f2f2;
+  }
+
+  .ant-tag {
+    background-color: #3e404b !important;
+    margin: 1px;
+    padding: 0px !important;
+  }
+}

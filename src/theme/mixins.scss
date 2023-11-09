@@ -1,0 +1,24 @@
+$hundredWidth : 1440px;
+$hundredHeight: 757px;
+
+$ninetyWidth : 1600px;
+$ninetyHeight: 841px;
+
+$eightyWidth : 1800px;
+$eightyHeight: 946px;
+
+$seventyFiveWidth: 1920px;
+$seventyFiveHeight: 1009px;
+
+$sixtySevenWidth : 2160px;
+$sixtySevenHeight : 1135px;
+
+$FiftyWidth: 2800px;
+$FiftyHeight: 1514px;
+
+
+@mixin mQ($arg, $arg2) {
+    @media screen and (min-width: $arg) and (max-width: $arg2) {
+        @content
+    }
+}

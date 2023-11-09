@@ -1,0 +1,70 @@
+@import 'theme/variables.scss';
+
+.V3Tabs {
+  height: 100%;
+  .ant-tabs {
+    height: 100%;
+    .ant-tabs-tab {
+      border-radius: 4px 4px 0px 0px;
+      border: none;
+      padding: 4px 12px;
+      margin: 0;
+
+      .ant-tabs-tab-btn {
+        color: $color-v3-grey-light;
+        font-family: 'Roboto';
+      }
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active {
+      background-color: $color-v3-grey-dark;
+      // border-bottom: 2px solid $color-v3-grey-dark !important;
+      z-index: 2;
+
+      .ant-tabs-tab-btn {
+        color: white;
+      }
+    }
+    .ant-tabs-content-holder {
+      flex-grow: 1;
+      overflow: hidden;
+      .ant-tabs-content {
+        height: 100%;
+        overflow: hidden;
+
+        .ant-tabs-tabpane {
+          height: 100%;
+          overflow: auto;
+        }
+      }
+    }
+  }
+
+  .ant-tabs-nav::before {
+    display: none;
+  }
+  .ant-tabs-ink-bar {
+    background-color: transparent;
+  }
+
+  .ant-tabs.secondary {
+    .ant-tabs-nav-list {
+      width: 100%;
+      & > * {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid white;
+        border-radius: 0px;
+        padding: 10px;
+      }
+      .ant-tabs-tab-active {
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+
+  .secondary .ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane {
+    overflow: auto;
+  }
+}

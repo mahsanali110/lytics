@@ -1,0 +1,11 @@
+{
+  "MULTIVIEW": {
+    "MAX_WINDOWS": 4
+  }, 
+  "CLIPPER":{
+    "MAX_WINDOWS": 1
+  },
+  "CLIENT":{
+    "MAX_WINDOWS": 2
+  }
+}

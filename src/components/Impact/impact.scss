@@ -1,0 +1,11 @@
+.Search-field {
+  background-color: #293155 !important;
+  margin-top: none;
+  .ant-input,
+  .ant-input-affix-wrapper {
+    background-color:  #293155 !important;
+    &:focus {
+      outline: none !important;
+    }
+  }
+}

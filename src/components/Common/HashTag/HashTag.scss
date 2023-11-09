@@ -1,0 +1,35 @@
+@import 'theme/variables';
+
+.hash-tag {
+  width: auto;
+  display: flex;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(239, 35, 60, 0.15);
+  border: 1px solid #ef233c;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white;
+  letter-spacing: 0.7px;
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-pink;
+    padding: 3px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}

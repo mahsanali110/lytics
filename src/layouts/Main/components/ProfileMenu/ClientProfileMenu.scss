@@ -1,0 +1,153 @@
+.profileMenu {
+  z-index: 999999999999999999999999999999999999;
+  width: 342px !important;
+  height: 629px !important;
+  background: #333561 !important;
+  mix-blend-mode: normal;
+  border-radius: 9px;
+  .Profile {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.7px;
+    color: #ffffff;
+    width: 114px;
+    height: 43.05px;
+    padding-top: 1.5rem;
+  }
+  .label {
+    margin-bottom: -5px;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 1;
+    margin-left: 6%;
+    color: #ffffff;
+    width: 85px;
+  }
+  .ant-input-affix-wrapper {
+    background-color: #333561 !important;
+    border: 1px solid #3b4653;
+    border-radius: 6px;
+    height: 31.36px;
+  }
+  .button {
+    width: 115.43px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ededed;
+    border: none;
+    background: rgba(180, 28, 59, 0.72);
+    border-radius: 9px;
+    margin-left: 35%;
+    margin-top: 2rem;
+  }
+  .anticon svg {
+    height: 2rem;
+    width: 1.1rem;
+    color: white !important;
+  }
+}
+.ant-divider-horizontal {
+  margin: 0;
+}
+.profile-hover {
+  padding: 10px;
+  background: #191b40;
+}
+.profile-hover:hover {
+  background-color: #333561 !important;
+}
+.profileSetting {
+  width: 200px;
+  height: 50px;
+  background: #333561;
+  box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  cursor: pointer;
+  .profileSetting-elem {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    margin: 1rem;
+  }
+  .ant-popover-hidden {
+    transition: 0.5s ease-in-out;
+  }
+}
+.LogOutModal {
+  width: 20rem !important;
+  top: 10px;
+  background-color: #191b40;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  .ant-modal-content {
+    background-color: #191b40;
+    box-shadow: none !important;
+  }
+  .ant-modal-close-x {
+    color: white !important;
+    display: none;
+  }
+  .ant-modal-footer {
+    border-top: none;
+    .ant-btn {
+      background: rgba(180, 28, 59, 0.72);
+      width: 80px;
+      border: none;
+      color: white;
+      border-radius: 9px;
+    }
+  }
+}
+.LogOutModal-content {
+  color: white;
+}
+.ClientProfileModal {
+  width: 342px !important;
+  height: 629px !important;
+  float: right;
+  mix-blend-mode: normal;
+  border-radius: 9px;
+  margin-right: 10px;
+  .ant-modal-body {
+    padding: 0px !important;
+  }
+  .ant-modal-content {
+    border-radius: 9px;
+  }
+
+  .ant-modal-close-x {
+    color: white !important;
+  }
+
+  .ant-form-item-label label {
+    font-size: 12px !important;
+    opacity: 0.6;
+    color: #fff !important;
+  }
+
+  .ant-form-item-label > label:after {
+    content: none;
+  }
+}
+.ClientProfileModal .ant-form-item-label label {
+  opacity: 1;
+}
+.profileMenu .ant-input-affix-wrapper {
+  color: white;
+  opacity: 0.5;
+  font-weight: 300;
+}
+.white-no-opacity {
+  color: #ffffff !important;
+  opacity: unset !important;
+}

@@ -1,0 +1,26 @@
+@import 'theme/variables';
+
+.print-clipper-input {
+  padding: 0.8rem 1rem;
+  background-color: #1d2642 !important;
+  border: none;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.44px;
+  color: #e0e8ff;
+
+  &::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: #e0e8ff;
+    opacity: 0.6;
+  }
+}

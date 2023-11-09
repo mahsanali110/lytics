@@ -1,0 +1,138 @@
+@import 'theme/variables';
+
+.newsboard-wrapper {
+  padding: 15px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  position: relative;
+  .disclaimer {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    background-color: yellow;
+    text-align: center;
+    opacity: 0.5;
+    font-size: 32px;
+    color: black;
+    z-index: 100;
+    padding: 16px;
+  }
+
+  .channels-wrapper {
+    .controls-wrapper {
+      .medium {
+        background-color: #2a324a;
+      }
+    }
+
+    // .padding-left {
+    //   padding-left: 4px !important;
+    // }
+  }
+
+  // .cards-wrapper {
+  //   max-height: 70vh;
+  // }
+
+  .video-player-wrapper {
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-bottom: 0px;
+    background-color: #2a324a;
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .ant-slider-rail {
+    height: 5px;
+    background-color: #313952;
+  }
+
+  .ant-slider-track {
+    height: 5px;
+    background-color: #121a34;
+  }
+  // .ant-slider-handle {
+  //   // width: 14px !important;
+  //   // height: 14px !important;
+  //   // margin-top: -2.5px !important;
+  // }
+
+  .channels-wrapper .padding-left,
+  .cards-wrapper .padding-left {
+    padding-left: 4px !important;
+  }
+
+  .preview-channel-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.4px;
+    color: $white;
+  }
+
+  .channels-radio-group {
+    .ant-radio-button-wrapper {
+      background: $color-pink;
+      border: none;
+      line-height: 2;
+      height: auto;
+      outline: none;
+      &::before {
+        display: none;
+      }
+
+      &:first-child {
+        border-radius: 4px 0 0 4px;
+      }
+      &:last-child {
+        border-radius: 0 4px 4px 0;
+      }
+      span {
+        font-size: 12px;
+        color: white;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+      }
+    }
+
+    .square {
+      &:first-child {
+        border-radius: 0;
+      }
+      &:last-child {
+        border-radius: 0;
+      }
+    }
+
+    .round {
+      &:first-child {
+        border-radius: 4px;
+      }
+    }
+
+    .ant-radio-button-wrapper-disabled {
+      background-color: #2b334e;
+      span {
+        color: #999999;
+      }
+    }
+
+    .ant-radio-button-wrapper-checked {
+      background-color: #455177;
+
+      &:hover {
+        background-color: #455177;
+      }
+      span {
+        color: $white;
+      }
+    }
+  }
+}

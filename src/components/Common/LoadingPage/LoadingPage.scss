@@ -1,0 +1,14 @@
+.loadingPage {
+  &.dark {
+    background-color: #43487a;
+  }
+  display: flex;
+  min-height: calc(100vh - 58px);
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .anticon {
+    font-size: 35px;
+  }
+}

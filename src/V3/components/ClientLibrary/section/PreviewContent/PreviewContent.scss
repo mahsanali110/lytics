@@ -1,0 +1,161 @@
+@import 'theme/variables.scss';
+
+.PreviewContent {
+  height: 100%;
+  background-color: $color-v3-light-black;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  .media-preview {
+    height: auto;
+    // overflow: hidden;
+    .video-player-wrapper {
+      margin-bottom: 0px;
+    }
+    .controls-wrapper {
+      .ant-card.card-container-primary {
+        background-color: $color-v3-black;
+      }
+
+      .speed-btn {
+        background-color: $color-v3-grey-dark;
+      }
+
+      .ims-slider,
+      .ims-slider2 {
+        padding: 0;
+
+        .ant-slider-rail {
+          background-color: white;
+        }
+
+        .ant-slider-track {
+          background-color: $color-v3-red-imperial;
+        }
+      }
+    }
+
+    .web-preview-wrapper,
+    .print-media-preview-wrapper {
+      padding-top: 10px;
+    }
+
+    .social-ticker-media-preview {
+      max-width: 420px;
+      margin: 0 auto;
+      padding-top: 10px;
+      .meta-info {
+        // max-width:;
+        display: flex;
+        justify-content: space-between;
+
+        .meta-left {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+
+          .source-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  .details-preview {
+    flex-grow: 1;
+    // max-height: 100%;
+    overflow: auto;
+    word-wrap: break-word;
+
+    .segment-statement-content-wrapper {
+      height: 100%;
+      color: white;
+      ::-webkit-scrollbar-button {
+        /* background-color: #3e404b; */
+        background-size: 10px 10px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #d3d3d3;
+        height: 16px;
+        width: 1em;
+        -webkit-box-shadow: none;
+      }
+      ::-webkit-scrollbar-button {
+        background-color: #d3d3d3;
+      }
+      ::-webkit-scrollbar {
+        background-color: #d3d3d3;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #313952;
+      }
+      ::-webkit-scrollbar-track {
+        background-color: #d3d3d3 !important;
+      }
+      .bg-selected {
+        background-color: yellow !important;
+        color: black;
+      }
+      .abc {
+        flex-direction: column;
+        margin-bottom: 20px;
+        color: white;
+        .speaker {
+          width: 100%;
+          padding: 0px 5px;
+        }
+        .tag {
+          width: 100%;
+          padding: 0px 10px;
+        }
+      }
+
+      .ant-card.card-container-secondary.grey.round {
+        background-color: transparent;
+
+        border-radius: 0px;
+      }
+    }
+
+    .tv-job-details-tab-content {
+      color: white;
+      font-family: 'Roboto';
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      p {
+        margin: 0;
+      }
+    }
+
+    .web-job-details-preview {
+      padding: 10px;
+    }
+
+    .rtl {
+      direction: rtl;
+      line-height: 30px !important;
+    }
+
+    .ltr {
+      direction: ltr;
+      line-height: 18px;
+    }
+  }
+
+  .round {
+    border-radius: 0px !important;
+  }
+
+  .light {
+    background-color: $color-v3-light-black !important;
+    .ant-card-body {
+      padding: 0px;
+    }
+  }
+}

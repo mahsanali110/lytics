@@ -1,0 +1,28 @@
+@import 'theme/variables';
+
+.access-denied-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  .access-denied-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 582.57px;
+    height: 460px;
+    padding: 50px;
+    background-color: $secondary-background;
+    .access-denied-heading-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: 50px;
+      .access-denied-heading {
+        font-size: 62px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.lytics-upload {
+  .ant-upload-list.ant-upload-list-picture-card {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+
+    .ant-upload-list-picture-card-container {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      margin: 0 8px 8px 0;
+      vertical-align: top;
+      flex-basis: 30%;
+      aspect-ratio: 16/9;
+
+      .ant-upload-list-item {
+        padding: 8px;
+
+        .ant-upload-list-item-thumbnail {
+          //   object-fit: none;
+          img {
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .ant-upload.ant-upload-select.ant-upload-select-picture-card {
+      flex-basis: 30%;
+      width: auto;
+      height: auto;
+      aspect-ratio: 16/9;
+      background-color: transparent;
+    }
+  }
+}

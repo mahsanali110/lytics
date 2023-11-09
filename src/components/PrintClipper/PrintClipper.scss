@@ -1,0 +1,65 @@
+@import 'theme/variables';
+
+.print-clipper-wrapper {
+  /* basic reset */
+  .main-row {
+    justify-content: space-between;
+  }
+  .col-gap {
+    flex-basis: 49.9%;
+  }
+
+  .d-flex {
+    display: flex;
+    .ant-row {
+      flex-basis: 25%;
+    }
+    gap: 3rem;
+    .label {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px !important;
+      line-height: 16px;
+      letter-spacing: 0.4px;
+      color: #d3d3d3;
+    }
+  }
+
+  //   background-color: green;
+  width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+
+  //   .margin-right {
+  //     margin-right: 6px;
+  //   }
+
+  .print-clipper-col {
+    background-color: #151d38;
+    padding: 2rem !important;
+
+    .main-heading {
+      text-align: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 14px;
+      letter-spacing: 0.7px;
+      color: #ffffff;
+    }
+
+    .sub-heading {
+      margin-bottom: 1rem;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 14px;
+      letter-spacing: 0.7px;
+      color: #ffffff;
+    }
+  }
+}

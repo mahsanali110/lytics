@@ -1,0 +1,21 @@
+@import '../../theme/variables.scss';
+
+.reports-form {
+
+  .form-input {
+    padding: 3px;
+    font-size: $small-font-size;
+  }
+ 
+  .report-button{
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+  
+  }
+}
+.report-container-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}

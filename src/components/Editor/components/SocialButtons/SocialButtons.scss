@@ -1,0 +1,62 @@
+@import 'theme/variables.scss';
+
+.social-buttons-wrapper {
+  .social-row {
+    display: flex;
+    flex-direction: column;
+
+    .first-social-col {
+      margin-bottom: 5px;
+    }
+  }
+
+  .ant-btn {
+    background-color: $color-ligt-grey;
+    color: $white;
+    border-color: $color-ligt-grey;
+    border-radius: 2px;
+    min-width: 105px;
+
+    &:hover,
+    &:focus {
+      border-color: $color-ligt-grey;
+      //   border: none;
+    }
+  }
+
+  .ant-col {
+    padding: 0% !important;
+  }
+
+  .ant-switch {
+    padding: 0% !important;
+    background: white;
+    min-width: 60px;
+    height: 30px;
+    line-height: 0px !important;
+    border: 1px solid #455177;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+  }
+  .ant-switch-inner {
+    font-size: 15px !important;
+  }
+  .ant-switch-handle {
+    top: 5px !important;
+    left: 0px !important;
+    width: 0% !important;
+    height: 0% !important;
+  }
+
+  .ant-switch-checked {
+    background-color: #cacfde80;
+    display: flex;
+    justify-content: flex-start;
+  }
+}

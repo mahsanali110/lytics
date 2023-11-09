@@ -1,0 +1,41 @@
+.pagination-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+  align-items: right;
+  padding: 10px 10px 0px 10px;
+
+  .pagination-item {
+    padding: 0 12px;
+    height: 32px;
+    text-align: center;
+    margin: auto 4px;
+    color: white;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    letter-spacing: 0.01071em;
+    font-size: 15px;
+    min-width: 32px;
+
+    &.dots:hover {
+      background-color: transparent;
+      cursor: default;
+    }
+    &:hover {
+      background-color: #ef233c;
+      cursor: pointer;
+    }
+
+    &.selected {
+      background-color: #ef233c;
+      color: #111;
+      font-weight: 600;
+      border-radius: 2.14px;
+      -webkit-border-radius: 2.14px;
+      -moz-border-radius: 2.14px;
+      -ms-border-radius: 2.14px;
+      -o-border-radius: 2.14px;
+}
+  }
+}

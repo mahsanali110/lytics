@@ -1,0 +1,48 @@
+@import 'theme/variables.scss';
+
+.pagination-container-v3 {
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+  align-items: center;
+  // padding: 10px 0px;
+  gap: 1rem;
+  margin-bottom: 0;
+
+  .pagination-item {
+    height: 32px;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    letter-spacing: 0.01071em;
+    font-size: 14px;
+
+    &.dots:hover {
+      background-color: transparent;
+      cursor: default;
+    }
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    &.selected {
+      opacity: 1;
+      font-weight: 600;
+      border-radius: 2.14px;
+      -webkit-border-radius: 2.14px;
+      -moz-border-radius: 2.14px;
+      -ms-border-radius: 2.14px;
+      -o-border-radius: 2.14px;
+    }
+
+    .arrow {
+      border-radius: 4px;
+      padding: 4px 6px;
+      background-color: $color-v3-grey-dark;
+    }
+  }
+}

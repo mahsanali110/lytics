@@ -1,0 +1,34 @@
+.marker-edit-wrapper {
+  .submit-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 15px;
+    //padding-right: 40px;
+  }
+  .segment-statement-overall-wrapper {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    .translation-statement-spaceing {
+      margin-top: 5%;
+    }
+  }
+}
+.marker-edit-wrapper .ant-card-head-wrapper .ant-card-extra span svg {
+  margin-top: 150%;
+}
+.ant-card-head-wrapper .ant-card-extra span svg{
+  // margin-top: 100%;
+}
+.segment-btn {
+margin-left: 5px;
+}
+.segment-statement-wrapper {
+  .ant-card-head-wrapper {
+    .ant-card-head-title {
+      position: absolute;
+      left: 35%;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../theme/variables.scss';
+.upload {
+  text-align: center;
+  .upload-text {
+    color: $white;
+  }
+  .ant-upload.ant-upload-select-picture-card > .ant-upload {
+    background-color: $body-background !important;
+    border-radius: 20px;
+  }
+  .ant-upload.ant-upload-select-picture-card {
+    margin-top: 5px;
+    background-color: $body-background;
+    border: none;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,37 @@
+@import 'theme/variables';
+
+.print-upload-wrapper {
+  .print-upload-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    background: #455177;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+  }
+
+  .ant-upload-list-item-info {
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  .ant-upload-text-icon {
+    svg {
+      fill: white;
+    }
+  }
+
+  .ant-upload-list-item-name {
+    color: #ffffff;
+  }
+
+  .ant-upload-list-item-card-actions {
+    svg {
+      fill: white;
+    }
+  }
+}

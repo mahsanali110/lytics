@@ -1,0 +1,40 @@
+@import 'theme/variables';
+
+// .tree-select-container {
+.tree-select-dropdown {
+  background-color: $color-dark-blue;
+  .ant-select-tree-list-holder {
+    background-color: $color-dark-blue;
+    color: $white;
+
+    .ant-select-tree-node-content-wrapper {
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    .ant-select-tree-checkbox {
+      .ant-select-tree-checkbox-inner {
+        background-color: transparent;
+        border-color: $white;
+      }
+    }
+
+    .ant-select-tree-checkbox-checked {
+      .ant-select-tree-checkbox-inner {
+        background-color: $color-pink;
+        border-color: $color-pink;
+      }
+      &::after {
+        border-color: $color-pink;
+      }
+    }
+
+    .ant-select-tree-checkbox-indeterminate {
+      .ant-select-tree-checkbox-inner::after {
+        background-color: $color-pink;
+      }
+    }
+  }
+}
+// }

@@ -1,0 +1,57 @@
+@import 'theme/variables';
+.ant-tag {
+  font-family: $text-font;
+  font-weight: 400;
+  width: 60px;
+  height: 21px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10px;
+  border-radius: 4px;
+  color: $white;
+  cursor: pointer;
+  align-items: center;
+  border: none;
+  margin: 0;
+}
+
+.tag-default {
+  background-color: $color-default;
+  border-color: $color-default;
+}
+
+.tag-balanced {
+  background-color: $color-balance;
+  border-color: $color-balance;
+}
+
+.tag-positive {
+  background-color: $color-green;
+  border-color: $color-green;
+}
+
+.tag-negative {
+  background-color: $color-red;
+  border-color: $color-red;
+}
+
+.tag-objective {
+  background-color: $color-purple;
+  border-color: $color-purple;
+}
+
+.tag-critical {
+  background-color: $color-pink;
+  border-color: $color-pink;
+}
+
+
+.tag-escalate {
+  width: 27px;
+  height: 22px;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: $color-balance;
+  border-color: $color-balance
+}

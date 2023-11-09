@@ -1,0 +1,61 @@
+@import 'theme/variables';
+.info-dropdown {
+    background-color: $secondary-background;
+    color: $white;
+    padding: 10px;
+    max-width: 450px;
+    max-height: 70vh;
+    overflow: auto;
+    border: 1px solid $base-border-color;
+  
+    .info-dd-header {
+      text-align: center;
+      font-weight: bold;
+      color: $white;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: baseline;
+      padding-left: 10px;
+      padding-right: 10px;
+  
+      .opacity-0 {
+        opacity: 0;
+      }
+  
+      .back-btn {
+        font-weight: normal;
+        .icon {
+          cursor: pointer;
+        }
+      }
+  
+      .close-dd {
+        cursor: pointer;
+      }
+    }
+  
+   .search-field .ant-input-affix-wrapper {
+      background-color: $grey-color;
+    }
+  
+    .list-item {
+      cursor: pointer;
+      color: white;
+      &:hover {
+        color: mix(#EF233C, #EF233C);
+      }
+      .list-icon {
+        color: $color-pink;
+      }
+    }
+  
+    .detail-section {
+      padding: 10px
+    }
+  
+    .detail-section {
+      .ant-typography {
+        color: $white;
+      }
+    }
+  }

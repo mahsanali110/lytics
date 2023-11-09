@@ -1,0 +1,593 @@
+@import 'variables';
+@import 'typography';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('../assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Noto Nastaliq';
+  src: local('Noto Nastaliq'),
+    url('../assets/fonts/Noto\ Nastaliq/NotoNastaliq.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url('../assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'JameelNoori';
+//   src: local('JameelNoori'),
+//     url('../assets/fonts/Jameel Noori Nastaleeq Regular/Jameel Noori Nastaleeq Regular.ttf')
+//       format('truetype');
+//   font-weight: bold;
+// }
+@font-face {
+  font-family: 'JameelNooriKasheeda';
+  src: local('JameelNooriKasheeda'),
+    url('../assets/fonts/Jameel Noori Nastaleeq Kasheeda/Jameel Noori Nastaleeq Kasheeda.ttf')
+      format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito'), url('../assets/fonts/Nunito/Nunito-Regular.ttf') format('truetype');
+}
+// Scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-light-grey;
+}
+
+.guest-analysis-wrapper::-webkit-scrollbar-track,
+.ant-table-body::-webkit-scrollbar-track {
+  background: $color-mid-dark-grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-blue;
+}
+
+.ims-wrapper {
+  background-color: $body-background;
+  display: flex;
+  justify-content: space-between;
+  .left {
+    width: 35%;
+  }
+  .right {
+    width: 65%;
+  }
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-db {
+  background-color: $body-background;
+}
+// Remove horizontal scroll
+.ant-row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.ant-col:first-child {
+  padding-left: 0 !important;
+}
+
+.ant-select-dropdown,
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: $color-dark-blue;
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: $color-dark-blue;
+}
+
+.ant-select-item-option-content {
+  font-weight: 400;
+  font-size: $small-font-size;
+  color: $color-grey;
+}
+
+.ant-input,
+.ant-select-selector,
+.ant-input-number,
+.ant-picker {
+  font-family: $text-font;
+  background-color: transparent !important;
+  color: $text-primary;
+  border-color: rgba($text-primary, 0.24) !important;
+  letter-spacing: 0.44px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.ant-select.green {
+  .ant-select-selector {
+    color: $color-green;
+  }
+}
+
+.ant-select.red {
+  .ant-select-selector {
+    color: $color-red;
+  }
+}
+
+.ant-select.balanced {
+  .ant-select-selector {
+    color: $color-balance;
+  }
+}
+.ant-select.purple {
+  .ant-select-selector {
+    color: $color-purple;
+  }
+}
+.ant-select.orange {
+  .ant-select-selector {
+    color: $color-pink;
+  }
+}
+
+.ant-picker-input {
+  input {
+    color: $text-primary;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
+.ant-form-item {
+  margin: 0;
+}
+.ant-form-item-label {
+  padding: 0 !important;
+  label {
+    font-family: $text-font;
+    font-size: $small-font-size;
+    font-weight: normal;
+    color: $text-primary;
+    opacity: 0.54;
+  }
+}
+
+.ant-select-multiple .ant-select-selection-item {
+  background: $light-grey;
+  border-color: $light-grey;
+  color: $text-primary;
+}
+.ant-select-multiple .ant-select-selection-item-remove {
+  color: $text-primary !important;
+  font-size: 9px;
+  &:hover {
+    color: none !important;
+  }
+}
+.ant-select-clear {
+  background: transparent;
+}
+
+.ant-select-suffix {
+  color: rgba($text-primary, 0.24) !important;
+}
+
+// AntD Pagination style
+
+.ant-pagination-item {
+  background: none;
+  border: none;
+  a {
+    color: $white;
+    &:hover {
+      color: $color-pink;
+    }
+  }
+}
+.ant-pagination-prev,
+.ant-pagination-next {
+  .ant-pagination-item-link {
+    background: none;
+    border: none;
+    color: #5c5e6a;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.ant-pagination-item-active {
+  background: $secondary-background;
+  a {
+    color: $color-pink;
+    border: none;
+  }
+}
+.footer-wrapper {
+  .ant-layout-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
+// Fade Animation Class for Transition Group
+.fade-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.fade-appear {
+  opacity: 0;
+  transform: scale(0.9);
+  z-index: 1;
+}
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms linear, transform 500ms;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms linear, transform 500ms;
+}
+.fade-exit-done {
+  opacity: 0;
+}
+
+.text-primary {
+  color: $text-primary;
+}
+.text-secondary {
+  color: $color-pink;
+}
+.text-blue {
+  color: $color-blue;
+}
+.text-grey {
+  color: $color-grey;
+}
+.text-blue {
+  color: $color-blue;
+}
+.text-orange {
+  color: $color-orange;
+}
+.text-pink {
+  color: $color-pink;
+}
+.text-red {
+  color: $color-red;
+}
+.text-green {
+  color: $color-green;
+}
+.text-white {
+  color: $white;
+}
+
+.small-font-size {
+  font-size: $small-font-size;
+}
+.smaller-font-size {
+  font-size: $smaller-font-size;
+}
+.medium-font-size {
+  font-size: $medium-font-size;
+}
+.text-bold {
+  font-weight: bold;
+}
+.regular-font-size {
+  font-size: $regular-font-size;
+}
+.large-font-size {
+  font-size: $large-font-size;
+}
+.large-alt-font-size {
+  font-size: $large-alt-font-size;
+}
+.small-font-size-minus {
+  font-size: $small-font-size-minus;
+  font-family: 'Roboto';
+}
+.smaller-font-size-minus {
+  font-size: $smaller-font-size-minus;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-3 {
+  margin-top: 3px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-2 {
+  margin-right: 2px;
+}
+.mr-4 {
+  margin-right: 4px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-2 {
+  margin-left: 2px;
+}
+.ml-3 {
+  margin-left: 3px;
+}
+.ml-4 {
+  margin-left: 4px;
+}
+.p-10 {
+  padding: 10px;
+}
+.w-99 {
+  width: 99%;
+}
+.bg-1C2542 {
+  background-color: #1c2542;
+}
+.bg-222D4F {
+  background-color: #222d4f;
+}
+.bg-455177 {
+  background-color: #455177;
+}
+
+.bg-light-grey {
+  background-color: $light-grey !important;
+  border: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bg-orange {
+  background: $color-pink;
+}
+
+.bg-secondary-grey {
+  background: $secondary-background !important;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-right {
+  justify-content: right;
+}
+.justify-content-left {
+  justify-content: left;
+}
+.border-none {
+  border: none;
+  // size: 16px;
+}
+.br-5 {
+  border-radius: 5px;
+}
+.br-10 {
+  border-radius: 10px;
+}
+.fs-11 {
+  font-size: 11px;
+}
+.font-normal {
+  font-weight: normal;
+}
+.p-5 {
+  padding: 5px 5px 5px 5px;
+}
+.p-5a {
+  padding: 5px 7px 5px 7px;
+}
+.color-white {
+  color: white;
+}
+.let-space-4 {
+  letter-spacing: 0.4px;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.pointer-cursor {
+  cursor: pointer;
+}
+
+//// V3 component classes
+
+.input-field-regular {
+  background-color: $color-v3-grey-mid !important;
+  padding: 12px 8px;
+  border: 1px solid;
+  border-color: transparent !important;
+  outline: none;
+  width: 100%;
+
+  &:focus-within {
+    border: 1px solid white !important;
+  }
+}
+
+.ant-tooltip.v3-tooltip {
+  .ant-tooltip-inner {
+    color: $color-v3-black;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  &.rtl {
+    .ant-tooltip-inner {
+      text-align: right;
+    }
+  }
+}
+
+//// V3 typography
+.fs-xs {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.fs-sm {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.fs-sm {
+  font-size: 12px;
+}
+.fs-md {
+  font-size: 14px;
+  line-height: 17px;
+}
+.fs-lg {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.fs-xl {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.fs-2xl {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+.ff-roboto {
+  font-family: 'Roboto' !important;
+}
+
+.text-imperial-red {
+  color: $color-v3-red-imperial;
+}
+
+.fc-grey-light {
+  color: $color-v3-grey-light;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+//v3 utility classes
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.px-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.p-inline-1 {
+  padding-inline: 5px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
