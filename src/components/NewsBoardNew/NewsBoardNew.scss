@@ -1,7 +1,10 @@
 @import 'theme/variables';
 
 .test {
-    background-color: $color-v3-grey-light;
+    background-color: $color-v3-grey-dark;
+    border-radius: 8px;
+    padding: 8px;
+    height: 254px;
 }
 
 .newsboard-wrapper {

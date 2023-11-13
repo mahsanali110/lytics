@@ -1,0 +1,35 @@
+@import 'theme/variables.scss';
+
+.section-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-block;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.4px;
+  padding-top: 10px;
+}
+
+.news-board-content-wrapper {
+  padding: 5px 0px;
+  // background-color: #121a34;
+  overflow: hidden;
+
+  .content {
+    background-color: #2a324a;
+    border: 5px solid #2a324a;
+    // padding: 5px;
+    border-radius: 6px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      display: inline;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #585a63;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import 'theme/variables';
+
+.lytics-dropdown {
+  .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.4px;
+    color: $white;
+  }
+
+  .dropdown-arrow {
+    svg {
+      fill: $white;
+    }
+  }
+}
