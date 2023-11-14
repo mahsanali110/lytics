@@ -27,6 +27,7 @@ import LivePieChart from './components/LivePieChart/LivePieChart';
 import HeaderContent from './components/HeaderContent/HeaderContent';
 import InfoTray from './components/InfoTray/InfoTray';
 import ListingHeaderContent from './components/ListingHeaderContent/ListingHeaderContent';
+import Card from './components/Card/Card';
 
 const NewsBoardNew = () => {
   const dispatch = useDispatch();
@@ -246,53 +247,30 @@ const NewsBoardNew = () => {
       ),
     },
   ];
-  const newsBoarslowerSection = [
+  const newsBoardlowerSection = [
     {
       // headerContent:<HeaderContent  isTv={false} graph={false}/>,
       headerContent: <ListingHeaderContent isTv={true} graph={false} />,
       children: (
-        <ReactPlayer
-          controls={true}
-          playing={true}
-          muted={true}
-          playIcon={<button>Play</button>}
-          width={'100%'}
-          height="90%"
-          url="https://www.youtube.com/watch?v=O3DPVlynUM0"
-        />
+       <Card/>
       ),
     },
     {
       headerContent: <ListingHeaderContent isTv={true} graph={false} />,
-
       children: (
-        <Box className="test">
-          <BarGraph />
-        </Box>
+        <Card/>
       ),
     },
     {
       headerContent: <ListingHeaderContent isTv={true} graph={false} />,
-
       children: (
-        <Box className="test">
-          <LivePieChart />
-        </Box>
+        <Card/>
       ),
     },
     {
       headerContent: <ListingHeaderContent isTv={true} graph={false} />,
-
       children: (
-        <ReactPlayer
-          controls={true}
-          playing={true}
-          muted={true}
-          playIcon={<button>Play</button>}
-          width={'100%'}
-          height="90%"
-          url="https://www.youtube.com/watch?v=O3DPVlynUM0"
-        />
+        <Card/>
       ),
     },
   ];
@@ -310,9 +288,10 @@ const NewsBoardNew = () => {
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mt={2}>
             <InfoTray />
           </Grid>
-          {newsBoarslowerSection.map(item => (
+          {newsBoardlowerSection.map(item => (
             <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
               {item.headerContent}
+              {item.children}
             </Grid>
           ))}
         </Grid>
