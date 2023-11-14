@@ -41,7 +41,18 @@ const Card = () => {
             
             </Grid>
             <Grid item lg={9} textAlign={'right'}>
-              <ShareIcon fontSize='small'/>
+              <ShareIcon  sx={{
+                fontSize:'10px'
+              }}/>
+            </Grid>
+            <Grid item lg={12} pl={1} mb={.3} mt={.8}>
+            Breaking News
+            </Grid>
+            <Grid item lg={12} pl={1} my={.3}>
+            Constitution & Rights | Human Rights
+            </Grid>
+            <Grid item color={'#999999'} lg={12} pl={1} my={.3}>
+            17 Aug 7:00 PM
             </Grid>
             </Grid>
             </Grid>
